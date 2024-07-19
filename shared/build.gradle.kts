@@ -1,17 +1,25 @@
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.kotlin.serialization)
+    alias(libs.plugins.sqldelight)
+    id("com.google.devtools.ksp")
+}
+
+repositories {
+    google()
+    mavenCentral()
 }
 
 kotlin {
     androidTarget {
+        publishAllLibraryVariants()
         compilations.all {
             kotlinOptions {
                 jvmTarget = "1.8"
             }
         }
     }
-    
     listOf(
         iosX64(),
         iosArm64(),
@@ -25,12 +33,73 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
-            //put your multiplatform dependencies here
+            implementation(kotlin("stdlib-common"))
+            implementation(kotlin("stdlib"))
+            implementation(libs.kotlinx.coroutines.core)
+            implementation(libs.kotlinx.serialization.json)
+            implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.logging)
+            implementation(libs.ktor.client.serialization)
+            implementation(libs.ktor.client.content.negotiation)
+            implementation(libs.ktor.serialization.kotlinx.json)
+            implementation(libs.ktor.client.encoding)
+            implementation(libs.multiplatform.settings)
+            implementation(libs.kotlinx.datetime)
+            implementation(libs.xmlutil.serialization)
+            implementation(libs.xmlutil.core)
         }
         commonTest.dependencies {
-            implementation(libs.kotlin.test)
+            implementation(kotlin("test-common"))
+            implementation(kotlin("test-annotations-common"))
+            implementation(libs.kotlinx.coroutines.test)
+            implementation(libs.ktor.client.mock)
+        }
+        val androidMain by getting {
+            dependencies {
+                implementation(kotlin("stdlib"))
+                implementation(libs.multiplatform.settings)
+                implementation(libs.google.firebase.analytics)
+                implementation(libs.google.firebase.config.ktx)
+                implementation(libs.jsoup)
+                implementation(libs.sqldelight.android.driver)
+                implementation(libs.sqldelight.android.driver)
+                implementation(libs.ktor.client.android)
+                implementation(libs.ksp.symbol.processing.api)
+            }
+        }
+        val androidUnitTest by getting {
+            dependencies {
+                implementation(kotlin("test-junit"))
+                implementation(libs.kotlin.test.junit)
+                implementation(libs.junit.jupiter.api)
+                implementation(libs.junit.jupiter.engine)
+                implementation(libs.junit.platform.runner)
+                implementation(libs.ktor.client.mock.jvm)
+            }
+        }
+        iosMain.dependencies {
+            implementation(libs.kotlinx.coroutines.core)
+            implementation(libs.ktor.client.ios)
+            implementation(libs.sqldelight.native.driver)
+            implementation(libs.sqldelight.native.driver)
+        }
+        iosTest.dependencies {
+            implementation(kotlin("test-common"))
+            implementation(kotlin("test-annotations-common"))
         }
     }
+}
+
+sqldelight {
+    databases {
+        create("Database") {
+            packageName.set("tv.iptv.tun.tviptv.database")
+        }
+    }
+}
+
+ksp {
+    arg("projectBaseDir", projectDir.toString())
 }
 
 android {

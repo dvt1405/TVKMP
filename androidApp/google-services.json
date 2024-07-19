@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "286931910634",
+    "project_id": "tviptv-7e19c",
+    "storage_bucket": "tviptv-7e19c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286931910634:android:fbedaf02d775ce7bfd7c93",
+        "android_client_info": {
+          "package_name": "tv.iptv.tun.dev.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvPiQk6jxVPMLTiZSaBHlxS4Cemr6FD80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286931910634:android:498a7a3c7b8f4268fd7c93",
+        "android_client_info": {
+          "package_name": "tv.iptv.tun.tviptv.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvPiQk6jxVPMLTiZSaBHlxS4Cemr6FD80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

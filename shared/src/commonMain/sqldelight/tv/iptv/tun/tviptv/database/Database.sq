@@ -1,0 +1,118 @@
+CREATE TABLE ChannelDTO  (
+    channelId TEXT PRIMARY KEY,
+    channelName TEXT,
+    channelCategoryId TEXT,
+    channelCategoryName TEXT,
+    channelLogo TEXT,
+    channelUrls TEXT,
+    channelType TEXT,
+    tags TEXT
+);
+
+CREATE TABLE IPTVChannelDTO (
+    tvGroup TEXT,
+    logoChannel TEXT,
+    tvChannelName TEXT,
+    tvStreamLink TEXT,
+    sourceFrom TEXT,
+    channelId TEXT,
+    channelPreviewProviderId TEXT,
+    isHls TEXT,
+    catchupSource TEXT,
+    userAgent TEXT,
+    referer TEXT,
+    props TEXT,
+    extensionSourceId TEXT
+);
+
+CREATE TABLE Programme(
+    channel TEXT,
+    channelNumber TEXT,
+    start TEXT,
+    stop TEXT,
+    title TEXT,
+    description TEXT,
+    extensionsConfigId TEXT,
+    extensionEpgUrl TEXT
+);
+
+insertChannel:
+INSERT OR REPLACE INTO
+    ChannelDTO(channelId, channelName, channelCategoryId,
+        channelCategoryName, channelLogo, channelUrls,
+        channelType, tags) VALUES (?, ?, ?,
+        ?,?, ?, ?, ?);
+
+selectAllChannel:
+SELECT * FROM ChannelDTO;
+
+deleteAllChannel:
+DELETE FROM ChannelDTO;
+
+queryChannelByID:
+SELECT * FROM ChannelDTO WHERE channelId = ?;
+
+insertIPTVChannel:
+INSERT OR REPLACE INTO IPTVChannelDTO(
+    tvGroup,
+    logoChannel,
+    tvChannelName,
+    tvStreamLink,
+    sourceFrom,
+    channelId,
+    channelPreviewProviderId,
+    isHls,
+    catchupSource,
+    userAgent,
+    referer,
+    props,
+    extensionSourceId
+) VALUES (?, ?, ?, ? , ?,
+?, ?, ?, ? , ?,?,
+?, ?);
+
+
+selectIPTVChannel:
+SELECT * FROM IPTVChannelDTO;
+
+deleteIPTVChannel:
+DELETE FROM IPTVChannelDTO;
+
+queryIPTVByID:
+SELECT * FROM IPTVChannelDTO WHERE channelId = ?;
+
+selectAllProgramme:
+SELECT * FROM Programme;
+
+deleteAllProgramme:
+DELETE FROM Programme;
+
+queryProgrammeByID:
+SELECT * FROM Programme WHERE channel = ?;
+
+queryProgrammeRelatedChannelName:
+SELECT * FROM Programme WHERE channel LIKE ?;
+
+deleteProgramByConfig:
+DELETE FROM Programme WHERE extensionsConfigId = ? AND extensionEpgUrl = ?;
+
+deleteProgramByConfigId:
+DELETE FROM Programme WHERE extensionsConfigId = ?;
+
+getAllByExtensionlId:
+SELECT * FROM Programme WHERE extensionsConfigId = ?;
+
+insertProgramme:
+INSERT OR REPLACE INTO Programme(
+title,description,extensionsConfigId,extensionEpgUrl,
+channel,channelNumber,start,stop
+) VALUES (
+?, ?, ?,?,
+?, ?, ?,?
+);
+
+insertProgrammeObj:
+INSERT OR REPLACE INTO Programme(
+title,description,extensionsConfigId,extensionEpgUrl,
+channel,channelNumber,start,stop
+) VALUES ?;

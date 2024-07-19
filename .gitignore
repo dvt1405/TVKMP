@@ -8,3 +8,6 @@ captures
 .cxx
 local.properties
 xcuserdata
+/.kotlin/metadata/kotlinTransformedMetadataLibraries
+/shared/src/androidMain/kotlin/services/com.google.devtools.ksp.processing.SymbolProcessorProvider
+/.kotlin/sessions/kotlin-compiler-15856624034620784772.salive

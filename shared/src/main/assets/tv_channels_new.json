@@ -1,0 +1,3842 @@
+[
+  {
+    "channelId": "vtv1-hd",
+    "channelName": "VTV1 HD",
+    "channelCategoryId": "VTV",
+    "channelCategoryName": "VTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/08/04/sxte9ibw_vtv11f822997e20aca724c82ad1c4abf86d96_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-vtv1-1.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/vtv1-hd-72574f3e"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtv1-hd/",
+        "priority": 2,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTV"
+  },
+  {
+    "channelId": "vtv2-hd",
+    "channelName": "VTV2 HD",
+    "channelCategoryId": "VTV",
+    "channelCategoryName": "VTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/xqggfif4_vtv2_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 1,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-vtv2-2.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/vtv2-kenh-khoa-hoc-va-giao-duc"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtv2-hd/",
+        "priority": 20,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTV"
+  },
+  {
+    "channelId": "vtv3-hd",
+    "channelName": "VTV3 HD",
+    "channelCategoryId": "VTV",
+    "channelCategoryName": "VTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/08/04/q3bjngzx_vtv31fab297a18c6fffe265bf73593d2fa47c_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/vtv3-hd-d605e3bf"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 1,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtv3-hd/",
+        "priority": 2,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTV"
+  },
+  {
+    "channelId": "vtv4-hd",
+    "channelName": "VTV4 HD",
+    "channelCategoryId": "VTV",
+    "channelCategoryName": "VTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/6dufbhs9_vtv4_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-vtv4-4.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/vtv4-truyen-hinh-doi-ngoai"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtv4-hd/",
+        "priority": 2,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTV"
+  },
+  {
+    "channelId": "vtv5-hd",
+    "channelName": "VTV5 HD",
+    "channelCategoryId": "VTV",
+    "channelCategoryName": "VTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/05/10/srzifdyb_microsoftteams-imaged2d6f97e4e3dec27158d45e19c549648_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 1,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-vtv5-5.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/vtv5-truyen-hinh-dan-toc"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtv5-hd/",
+        "priority": 2,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTV"
+  },
+  {
+    "channelCategoryId": "VTV",
+    "channelId": "vtv5hdtnb",
+    "channelName": "VTV5 Tây Nam Bộ",
+    "channelCategoryName": "VTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/05/10/srzifdyb_microsoftteams-imaged2d6f97e4e3dec27158d45e19c549648_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/vtv5-tay-nam-bo-tieng-dan-toc-khu-vuc-tay-nam-bo"
+      },
+      {
+        "sourceFrom": "V",
+        "priority": 2,
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtv5-tay-nam-bo/"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 1,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-vtv5-tây-nam-bộ-7.html"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTV"
+  },
+  {
+    "channelCategoryName": "VTV",
+    "channelCategoryId": "VTV",
+    "channelId": "vtv5hdtn",
+    "channelName": "VTV5 Tây Nguyên",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/05/10/srzifdyb_microsoftteams-imaged2d6f97e4e3dec27158d45e19c549648_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "V",
+        "priority": 1,
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtv5-tay-nguyen/"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-kênh-vtv5-tây-nguyên-163.html"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTV"
+  },
+  {
+    "channelId": "vtv-can-tho",
+    "channelName": "VTV Cần Thơ",
+    "channelCategoryId": "VTV",
+    "channelCategoryName": "VTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/06/01/g9nhd2v3_microsoftteams-imagea931a4e501b80e76d97a004805b11404_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 1,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-vtv-cần-thơ-6.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/vtv6-69452026"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtv-can-tho/",
+        "priority": 2,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTV"
+  },
+  {
+    "channelId": "vtv7-hd",
+    "channelName": "VTV7 HD",
+    "channelCategoryId": "VTV",
+    "channelCategoryName": "VTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/08/04/4922sidk_vtv7354aed3edd823040f10d646400991150_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-vtv7-27.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/vtv7-dabb4fb7"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtv7-hd/",
+        "priority": 2,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTV"
+  },
+  {
+    "channelId": "vtv8-hd",
+    "channelName": "VTV8 HD",
+    "channelCategoryId": "VTV",
+    "channelCategoryName": "VTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/ma6k05nf_vtv8_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-vtv8-36.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/vtv8-kenh-tong-hop-mien-trung-tay-nguyen"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtv8-hd/",
+        "priority": 2,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTV"
+  },
+  {
+    "channelId": "vtv9-hd",
+    "channelName": "VTV9 HD",
+    "channelCategoryId": "VTV",
+    "channelCategoryName": "VTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/14/hx8ded4y_microsoftteams-image78e605a26243189ab65e1421f7acd1f0_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-vtv9-39.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/vtv9-87299929"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtv9-hd/",
+        "priority": 2,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTV"
+  },
+  {
+    "channelId": "vie-channel-htv2-hd",
+    "channelName": "HTV2 HD",
+    "channelCategoryId": "HTV",
+    "channelCategoryName": "HTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/05/24/dypvrifd_htv25821a31a2ad7a1922f36941c66a29c96_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/htv2-9c7135a1"
+      },
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2669&w=750&h=500",
+        "priority": 1,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vie-channel-htv2-hd/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTV"
+  },
+  {
+    "channelId": "htv1",
+    "channelName": "HTV1",
+    "channelCategoryId": "HTV",
+    "channelCategoryName": "HTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/31/4xuzfg1v_htv18c9e41741f7e3e8c6ebf76b6b8247ef8_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2631&w=750&h=500",
+        "priority": 0,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "url": "https://hplus.com.vn/xem-kenh-htv1-2631.html",
+        "priority": 1,
+        "sourceFrom": "HTV_BACKUP"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htv1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTV"
+  },
+  {
+    "channelId": "htv3",
+    "channelName": "HTV3",
+    "channelCategoryId": "HTV",
+    "channelCategoryName": "HTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/07/23/qo4rq0c8_htv-35d05534552446b8c856cceb64c0f94f3_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv3-a5429cbf"
+      },
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2535&w=750&h=500",
+        "priority": 1,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htv3/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTV"
+  },
+  {
+    "channelId": "htv7-hd",
+    "channelName": "HTV7 HD",
+    "channelCategoryId": "HTV",
+    "channelCategoryName": "HTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/10/04/2xq7mdxb_htv72ngay1dem2a8de358383058f5a54671ad64a53b81_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/htv7-96634500"
+      },
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=256&w=750&h=500",
+        "priority": 1,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htv7-hd/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTV"
+  },
+  {
+    "channelId": "htv9-hd",
+    "channelName": "HTV9 HD",
+    "channelCategoryId": "HTV",
+    "channelCategoryName": "HTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/31/xp9ko8qq_htv9fbbab36e3ca3277fb7da92f6ae98f4b6_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/htv9-c6c29fcd"
+      },
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2667&w=750&h=500",
+        "priority": 1,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htv9-hd/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTV"
+  },
+  {
+    "channelId": "htv-the-thao",
+    "channelName": "HTV Thể Thao HD",
+    "channelCategoryId": "HTV",
+    "channelCategoryName": "HTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/31/4jh8an9o_htvtt0bc7a88214a92d5a553e379269af608d_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/sctv17-hd-87f0ff9d"
+      },
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=4009&w=750&h=500",
+        "priority": 0,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 2,
+        "url": "https://hplus.com.vn/xem-kenh-htv-the-thao-hd-4009.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htv-the-thao/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTV"
+  },
+  {
+    "channelId": "htv-key",
+    "channelName": "HTV Key",
+    "channelCategoryId": "HTV",
+    "channelCategoryName": "HTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/31/ynnn9ypk_htvkey0364056e436d8f637f10ffbc56032c84_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/htv-key-htv4-058fcf8c"
+      },
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2528&w=750&h=500",
+        "priority": 1,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htv-key/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTV"
+  },
+  {
+    "channelId": "htv-co-op",
+    "channelName": "HTV Co.op",
+    "channelCategoryId": "HTV",
+    "channelCategoryName": "HTV",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/ehoq2nw3_htv-coop_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2528&w=750&h=500",
+        "priority": 0,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htv-co-op/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTV"
+  },
+  {
+    "channelId": "vtc1-hd",
+    "channelName": "VTC1 HD",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/su3ew91o_vtc-1b97406a37563317572e3a0d867081ffd_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 2,
+        "url": "https://hplus.com.vn/xem-kenh-vtc1-full-hd-1080-50075.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 1,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-số-vtc1-99.html"
+      },
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 2,
+        "url": "https://sctvonline.vn/detail/vtc1-1ea5358e"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc1-hd/",
+        "priority": 20,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc2-reidius-tv",
+    "channelName": "VTC2",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/15/koc7qspx_vtc2_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc2-reidius-tv/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc3-hd",
+    "channelName": "VTC3 HD",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/bnd5bu2b_vtc-31e15059012d313a4dac8254d03f3a83f_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc3-hd/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc4-yeah1-family-hd",
+    "channelName": "VTC4 HD",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/0agsfxm9_yeah1-family89c8f12a26fd8f5edaa414ff48d2dd0c_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-vtc4-2057.html"
+      },
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc4-yeah1-family-hd/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc5-hd",
+    "channelName": "VTC5 HD",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/m8rrki02_tv-bluee75315eb0043c1655dac0c4a7f24a6cb_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/vtc5-d2e00531"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc5-hd/",
+        "priority": 2,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc6",
+    "channelName": "VTC6",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/15/hb4961cy_vtc6_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc6/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc7-todaytv-hd",
+    "channelName": "VTC7 HD",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/r0eb2yp2_today-tv4deb69f96536a758c1b560d31adffa57_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-todaytv-vtc7-2060.html"
+      },
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2060&w=750&h=500",
+        "priority": 2,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc7-todaytv-hd/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc8",
+    "channelName": "VTC8",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/2b2ab9vz_vtc-89893d4ad3341d50412dc57325fa2011b_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc8/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc9-hd",
+    "channelName": "VTC9 HD",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/v6xuy2jr_vtc-99d3e7e66ed0c7ccdeb1a97da76b48e66_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/vtc9-c75d955d"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc9-hd/",
+        "priority": 2,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc10-1",
+    "channelName": "VTC10",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/y19zhvhx_vtc-1028537230304be426238d420dbf890d77_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/vtc10-62602a81"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc10-1/",
+        "priority": 2,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc11-kids-tv",
+    "channelName": "VTC11",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/z9b9cvne_kids-family-tvc19224d3ab441b38e0872a45d49e46b3_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc11-kids-tv/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc12",
+    "channelName": "VTC12",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/15/wsxcq0xz_vtc12_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc12/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc13-hd",
+    "channelName": "VTC13 HD",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/15/cwoumgm7_vtc13_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc13-hd/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc14-hd",
+    "channelName": "VTC14 HD",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/fxkg8rfr_vtc-140f85bd0d005d3bd26e9fe41a53bb4408_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc14-hd/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "vtc16-hd",
+    "channelName": "VTC16 HD",
+    "channelCategoryId": "VTC",
+    "channelCategoryName": "VTC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/gritwxi8_vtc-16c8062ca1b5865c4589c1ded75c86a19c_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTC_BACKUP",
+        "priority": 0,
+        "url": "https://vtc.gov.vn/live"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtc16-hd/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VTC"
+  },
+  {
+    "channelId": "VOV1",
+    "channelName": "VOV1",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671787010.png.webp",
+    "channelUrls": [
+      {
+        "url": "http://media.kythuatvov.vn:7001/;stream/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOV2",
+    "channelName": "VOV2",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671787175.png.webp",
+    "channelUrls": [
+      {
+        "url": "http://media.kythuatvov.vn:7003/;stream/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOV3",
+    "channelName": "VOV3",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671787383.png.webp",
+    "channelUrls": [
+      {
+        "url": "http://media.kythuatvov.vn:7005/;stream/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOVgiaothonghanoi",
+    "channelName": "VOV giao thông Hà Nội",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671787624.png.webp",
+    "channelUrls": [
+      {
+        "url": "http://media.kythuatvov.vn:7025/;stream/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOVgiaothonghochiminh",
+    "channelName": "VOV giao thông Hồ Chí Minh",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671787823.png",
+    "channelUrls": [
+      {
+        "url": "http://media.kythuatvov.vn:7023/;stream/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOVfm89",
+    "channelName": "VOV-fm89",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671787926.png",
+    "channelUrls": [
+      {
+        "url": "http://media.kythuatvov.vn:7021/;stream/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOV5",
+    "channelName": "VOV5",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671788035.png",
+    "channelUrls": [
+      {
+        "url": "https://stream.vovmedia.vn/vov5",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOV5english247",
+    "channelName": "VOV5 English 247",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671788129.png",
+    "channelUrls": [
+      {
+        "url": "https://stream.vovmedia.vn/vov247",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOV6 international Svc",
+    "channelName": "VOV6 international Svc",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://media.vov.vn/sites/default/files/2020-12/vov6_2.png",
+    "channelUrls": [
+      {
+        "url": "https://str.vov.gov.vn/vovlive/vov2.sdp_aac/playlist.m3u8",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOV4mientrung",
+    "channelName": "VOV4 Miền Trung",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671788868.png",
+    "channelUrls": [
+      {
+        "url": "http://vovmedia.vn/vov4-mien-trung",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOV4taybac",
+    "channelName": "VOV4 Tây Bắc",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671788849.png",
+    "channelUrls": [
+      {
+        "url": "http://vovmedia.vn/vov4-tay-bac",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOV4taynguyen",
+    "channelName": "VOV4 Tây Nguyen",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671789171.png",
+    "channelUrls": [
+      {
+        "url": "http://vovmedia.vn/vov4-tay-nguyen",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOV4dongbangsongcuulong",
+    "channelName": "VOV4 Đồng Bằng Sông Cửu Long",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671789228.png",
+    "channelUrls": [
+      {
+        "url": "http://vovmedia.vn/vov4-dong-bang-song-cuu-long",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOV4hochiminh",
+    "channelName": "VOV4 Hồ Chí Minh",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671789275.png",
+    "channelUrls": [
+      {
+        "url": "http://vovmedia.vn/vov4-ho-chi-minh",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "VOVmekong",
+    "channelName": "VOV Mekong",
+    "channelCategoryId": "VOV",
+    "channelCategoryName": "VOV",
+    "channelLogo": "https://foxxradio.com/upload/vi/1671788606.png",
+    "channelUrls": [
+      {
+        "url": "http://vovmedia.vn/vov-mekong",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOV"
+  },
+  {
+    "channelId": "AM610khz",
+    "channelName": "AM-610khz",
+    "channelCategoryId": "VOH",
+    "channelCategoryName": "VOH",
+    "channelLogo": "https://firebasestorage.googleapis.com/v0/b/xemtv-447d7.appspot.com/o/Logo-VOH-06.png?alt=media&token=a9d77673-47b7-426e-b72a-0180badad367",
+    "channelUrls": [
+      {
+        "url": "https://strm.voh.com.vn/radio/channel2/playlist.m3u8",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOH"
+  },
+  {
+    "channelId": "FM99.9mhz",
+    "channelName": "FM-99.9-mhz",
+    "channelCategoryId": "VOH",
+    "channelCategoryName": "VOH",
+    "channelLogo": "https://firebasestorage.googleapis.com/v0/b/xemtv-447d7.appspot.com/o/Logo-VOH-06.png?alt=media&token=a9d77673-47b7-426e-b72a-0180badad367",
+    "channelUrls": [
+      {
+        "url": "https://strm.voh.com.vn/radio/channel3/playlist.m3u8",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOH"
+  },
+  {
+    "channelId": "Fm95.6mhz",
+    "channelName": "Fm-95.6-mhz",
+    "channelCategoryId": "VOH",
+    "channelCategoryName": "VOH",
+    "channelLogo": "https://firebasestorage.googleapis.com/v0/b/xemtv-447d7.appspot.com/o/Logo-VOH-06.png?alt=media&token=a9d77673-47b7-426e-b72a-0180badad367",
+    "channelUrls": [
+      {
+        "url": "https://strm.voh.com.vn/radio/channel1/playlist.m3u8",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOH"
+  },
+  {
+    "channelId": "Fm87.7mhz",
+    "channelName": "Fm-87.7-mhz",
+    "channelCategoryId": "VOH",
+    "channelCategoryName": "VOH",
+    "channelLogo": "https://firebasestorage.googleapis.com/v0/b/xemtv-447d7.appspot.com/o/Logo-VOH-06.png?alt=media&token=a9d77673-47b7-426e-b72a-0180badad367",
+    "channelUrls": [
+      {
+        "url": "https://strm.voh.com.vn/radio/channel5/playlist.m3u8",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "VOH"
+  },
+  {
+    "channelId": "htvc-thuan-viet-hd",
+    "channelName": "HTVC Thuần Việt HD",
+    "channelCategoryId": "HTVC",
+    "channelCategoryName": "HTVC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/31/kzkbf3xc_htvcthuanviethd_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2396&w=750&h=500",
+        "priority": 0,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htvc-thuan-viet-hd/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTVC"
+  },
+  {
+    "channelId": "htvc-thuan-viet-1",
+    "channelName": "HTVC Thuần Việt",
+    "channelCategoryId": "HTVC",
+    "channelCategoryName": "HTVC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/31/f1awhyku_htvcthuanviet_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2396&w=750&h=500",
+        "priority": 0,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-htvc-thuan-viet-2396.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htvc-thuan-viet-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTVC"
+  },
+  {
+    "channelId": "htvc-plus",
+    "channelName": "HTVC+ HD",
+    "channelCategoryId": "HTVC",
+    "channelCategoryName": "HTVC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/31/v2ga72jr_htvc_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2395&w=750&h=500",
+        "priority": 0,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-htvc-plus-full-hd-1080-2395.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htvc-plus/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTVC"
+  },
+  {
+    "channelId": "htvc-du-lich-cuoc-song",
+    "channelName": "HTVC Du lịch \u0026 Cuộc sống HD",
+    "channelCategoryId": "HTVC",
+    "channelCategoryName": "HTVC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/31/4syej015_htvcdulich_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2328&w=750&h=500",
+        "priority": 0,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-htvc-du-lich-va-cuoc-song-full-hd-1080-2328.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htvc-du-lich-cuoc-song/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTVC"
+  },
+  {
+    "channelId": "htvc-ca-nhac",
+    "channelName": "HTVC Ca Nhạc HD",
+    "channelCategoryId": "HTVC",
+    "channelCategoryName": "HTVC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/31/bp6rq37b_htvccanhac_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2264&w=750&h=500",
+        "priority": 0,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-htvc-ca-nhac-full-hd-1080-2264.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htvc-ca-nhac/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTVC"
+  },
+  {
+    "channelId": "htvc-phim",
+    "channelName": "HTVC Phim HD",
+    "channelCategoryId": "HTVC",
+    "channelCategoryName": "HTVC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/31/7mskjha6_htvcphim_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2399&w=750&h=500",
+        "priority": 0,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-htvc-phim-hd-2399.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htvc-phim/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTVC"
+  },
+  {
+    "channelId": "htvc-gia-dinh",
+    "channelName": "HTVC Gia Đình HD",
+    "channelCategoryId": "HTVC",
+    "channelCategoryName": "HTVC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/31/1cgsej7h_htvc-gia-dinh_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2394&w=750&h=500",
+        "priority": 0,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-htvc-gia-dinh-full-hd-1080-2394.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htvc-gia-dinh/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTVC"
+  },
+  {
+    "channelId": "htvc-phu-nu",
+    "channelName": "HTVC Phụ Nữ HD",
+    "channelCategoryId": "HTVC",
+    "channelCategoryName": "HTVC",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/31/962h3dtj_htvcphunu_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=2393&w=750&h=500",
+        "priority": 0,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-htvc-phu-nu-full-hd-1080-2393.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/htvc-phu-nu/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "HTVC"
+  },
+  {
+    "channelId": "thvl1-hd",
+    "channelName": "Vĩnh Long 1 HD",
+    "channelCategoryId": "THVL",
+    "channelCategoryName": "THVL",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/08/04/g2mykpvz_thvl1ab8105a91e9ba786002e5062f5324d56_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/thvl1-1384da2a"
+      },
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=899&w=750&h=500",
+        "priority": 1,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/thvl1-hd/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "THVL"
+  },
+  {
+    "channelId": "thvl2-hd",
+    "channelName": "Vĩnh Long 2 HD",
+    "channelCategoryId": "THVL",
+    "channelCategoryName": "THVL",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/10/28/fstbcaqz_thvl2-moi14271023d66c7689e4dd5709bbe22024_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/thvl2-f66e61f0"
+      },
+      {
+        "url": "https://hplus.com.vn/iframe?content_id=52406&w=750&h=500",
+        "priority": 1,
+        "sourceFrom": "HTV_IFRAME"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/thvl2-hd/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "THVL"
+  },
+  {
+    "channelId": "thvl3-hd",
+    "channelName": "Vĩnh Long 3 HD",
+    "channelCategoryId": "THVL",
+    "channelCategoryName": "THVL",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/96zx88xd_thvl3_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/thvl3-hd/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "THVL"
+  },
+  {
+    "channelId": "thvl4-hd",
+    "channelName": "Vĩnh Long 4 HD",
+    "channelCategoryId": "THVL",
+    "channelCategoryName": "THVL",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/bayzt9n8_thvl4_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/thvl4-hd/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "THVL"
+  },
+  {
+    "channelId": "an-giang-1",
+    "channelName": "An Giang",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/uvjjp3zi_an-giang_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 2,
+        "url": "https://hplus.com.vn/xem-kenh-atv-truyen-hinh-an-giang-51818.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 1,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-an-giang-231.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/th-an-giang-e2b64bbf"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/an-giang-1/",
+        "priority": 20,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "ba-ria-vung-tau-1",
+    "channelName": "Bà Rịa Vũng Tàu",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/vmq8dni1_ba-ria-vung-tau_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-brt-truyen-hinh-ba-ria-1982.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/dai-phat-thanh-truyen-hinh-tinh-ba-ria-vung-tau-d4ec9b56"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/ba-ria-vung-tau-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "bac-lieu-1",
+    "channelName": "Bạc Liêu",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/8bppmif1_bac-lieu_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-btv-truyen-hinh-bac-lieu-872.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-bạc-liêu-220.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/bac-lieu-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "bac-ninh-1",
+    "channelName": "Bắc Ninh",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/17/5yhnk0cr_bacninh_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-bắc-ninh-211.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/bac-ninh-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "bac-giang-hd",
+    "channelName": "Bắc Giang HD",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/2c2gw5du_bac-giang_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-bắc-giang-219.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/bac-giang-hd/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "bac-kan-1",
+    "channelName": "Bắc Kạn",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/11/04/gvx6bnnv_backan_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-bắc-cạn-242.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/bac-kan-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "ben-tre-1-2",
+    "channelName": "Bến Tre",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/21/xonh4nd2_ben-tre_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 1,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-bến-tre-227.html"
+      },
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 2,
+        "url": "https://hplus.com.vn/xem-kenh-thbt-truyen-hinh-ben-tre-61299.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/th-ben-tre-a08942ae"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/ben-tre-1-2/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "binh-dinh",
+    "channelName": "Bình Định",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/xry15n68_binh-dinh_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-btv-truyen-hinh-binh-dinh-1955.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-bình-Định-237.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/binh-dinh/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "binh-duong-1",
+    "channelName": "Bình Dương 1",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/ed7v7ycs_binh-duong-1_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-btv1-truyen-hinh-binh-duong-1-1907.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/btv1-dai-phat-thanh-va-truyen-hinh-binh-duong"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/binh-duong-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "binh-duong-2",
+    "channelName": "Bình Dương 2",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/yeui1ik3_binh-duong-2_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-btv2-truyen-hinh-binh-duong-2-23963.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/btv2-dai-phat-thanh-va-truyen-hinh-binh-duong"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/binh-duong-2/",
+        "priority": 20,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "binh-duong-4",
+    "channelName": "Bình Dương 4 HD",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/7spucc0f_imovie_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/binh-duong-4/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "btv6",
+    "channelName": "Bình Dương 6",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/15/p6h1uiy5_binhduong6_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/btv6/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "btv11",
+    "channelName": "Bình Dương 11",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/33ms32vg_binh-duong-11_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/btv11/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "binh-phuoc-1",
+    "channelName": "Bình Phước 1",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/4tifgo6e_binh-phuoc-1_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-bptv1-truyen-hinh-binh-phuoc-877.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-bình-phước-145.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/binh-phuoc-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "binh-phuoc-2",
+    "channelName": "Bình Phước 2",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/vn4bgptg_binh-phuoc-2_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/binh-phuoc-2/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "binh-thuan-1",
+    "channelName": "Bình Thuận",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/uptrequc_binh-thuan_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-btv-truyen-hinh-binh-thuan-53530.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-bình-thuận-245.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/binh-thuan-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "can-tho-1",
+    "channelName": "Cần Thơ",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/c5tuh0ng_can-tho_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-thtpct-truyen-hinh-can-tho-1980.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-cần-thơ-244.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/can-tho-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "ca-mau-1",
+    "channelName": "Cà Mau",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/15/v9up84rb_camautv_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-cà-mau-218.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/ca-mau-1/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "da-nang-1",
+    "channelName": "Đà Nẵng 1",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/d8ub5k12_da-nang-1_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-drt1-truyen-hinh-da-nang-1-3268.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-Đà-nẵng-1-175.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/da-nang-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "da-nang-2",
+    "channelName": "Đà Nẵng 2",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/gkswvyqt_da-nang-2_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 0,
+        "url": "https://hplus.com.vn/xem-kenh-drt2-truyen-hinh-da-nang-2-53529.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/da-nang-2/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "dak-lak",
+    "channelName": "Đắk Lắk",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/dyrxfpju_dak-lak_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-drt-truyen-hinh-dac-lac-1785.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-Đắk-lắk-221.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/dak-lak/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "dak-nong",
+    "channelName": "Đắk Nông",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/f9he9pvi_dak-nong_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/xem-kenh-ptd-truyen-hinh-dac-nong-1784.html",
+        "priority": 0,
+        "sourceFrom": "HTV_BACKUP"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/dak-nong/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "dong-thap-1",
+    "channelName": "Đồng Tháp 1",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/15/v6hsdi5f_dongthap1_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-thdt1-truyen-hinh-dong-thap-1-1788.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-Đồng-tháp-1-133.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/dong-thap-1/",
+        "priority": 20,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "dong-thap-2",
+    "channelName": "Đồng Tháp 2",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/15/uf1g0vyr_dongthap2de9404606c9a0f93382891f2a06d95a9_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/xem-kenh-thdt2-truyen-hinh-dong-thap-2-50065.html",
+        "priority": 0,
+        "sourceFrom": "HTV_BACKUP"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/dong-thap-2/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "dong-nai-1",
+    "channelName": "Đồng Nai 1 HD",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/sc8akpju_dong-nai-1_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-Đồng-nai-234.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/dong-nai-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "dong-nai-2",
+    "channelName": "Đồng Nai 2",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/tscbn8gp_dong-nai-2_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://hplus.com.vn/xem-kenh-truyen-hinh-dong-nai-2-83242.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/dong-nai-2/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "dong-nai-3",
+    "channelName": "Đồng Nai 3",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/02/18/qp2bws69_dongnai3_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/dong-nai-3/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "dien-bien-20",
+    "channelName": "Điện Biên",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/11/15/mbbbn1n5_dien-bien_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-Điện-biên-230.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/dien-bien-20/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "gia-lai-1",
+    "channelName": "Gia Lai",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/22/vuwiap1r_gialai_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-gia-lai-223.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/gia-lai-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "ha-nam-1",
+    "channelName": "Hà Nam",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/m168rhbp_ha-nam_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/ha-nam-1/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "ha-noi-1",
+    "channelName": "Hà Nội 1",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/a7e3wofy_ha-noi_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-hà-nội-1-91.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/ha-noi-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "ha-noi-2-2021",
+    "channelName": "Hà Nội 2",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/15/z9j7d2uy_hanoi2dd8bf17d2cb430463d45f7eb5b30a26e_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-hà-nội-2-94.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/ha-noi-2-2021/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "haiduong",
+    "channelName": "Hải Dương",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "icon_channel_hai_duong_145880941298.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-hải-dương-143.html"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "hai-phong",
+    "channelName": "Hải Phòng",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "icon_channel_hai_duong_145880941298.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 0,
+        "url": "https://hplus.com.vn/xem-kenh-hai-phong-87682.html"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "ha-tinh-1",
+    "channelName": "Hà Tĩnh",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/9fs1rt7q_ha-tinh_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/xem-kenh-httv-truyen-hinh-ha-tinh-7796.html",
+        "priority": 0,
+        "sourceFrom": "HTV_BACKUP"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/ha-tinh-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "ha-giang-1",
+    "channelName": "Hà Giang",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/10/28/pkpzjr52_hagiang_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-hà-giang-226.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/ha-giang-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "hau-giang-1",
+    "channelName": "Hậu Giang",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/05/09/y2wqgi6p_thumb-hau-giang_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-hgtv-truyen-hinh-hau-giang-762.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-hậu-giang-117.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/hau-giang-1/",
+        "priority": 20,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "hoa-binh-1",
+    "channelName": "Hòa Bình",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/05/24/6qzjh78z_hoabinh_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-hòa-bình-225.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/hoa-binh-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "hungyen",
+    "channelName": "Hưng Yên",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "icon_channel_hung_yen_145880734258.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "HY",
+        "priority": 1,
+        "url": "https://hungyentv.vn/"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-hưng-yên-185.html"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "khanh-hoa-1",
+    "channelName": "Khánh Hòa",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/21/0rpnq0fk_khanh-hoa_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-ktv-truyen-hinh-khanh-hoa-1979.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-khánh-hòa-125.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/khanh-hoa-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "kiengiang",
+    "channelName": "Kiên Giang",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "icon_channel_kien_giang_145880815375.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "Streaming",
+        "priority": 10,
+        "url": "http://tv.kgtv.vn/live/kgtv/kgtv.m3u8"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-kiên-giang-246.html"
+      },
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-kg-truyen-hinh-kien-giang-774.html"
+      }
+    ]
+  },
+  {
+    "channelId": "kon-tum-1",
+    "channelName": "Kon Tum",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/10/28/15ksog4n_kontum-1_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/kon-tum-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-kon-tum-240.html"
+      },
+      {
+        "sourceFrom": "Streaming",
+        "priority": 10,
+        "url": "http://tv.kontumtv.vn/live/kontumtv/kontumtv.m3u8"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "laichau",
+    "channelName": "Lai Châu",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "icon_channel_lai_chau_159849986283.png",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-lai-châu-228.html"
+      },
+      {
+        "sourceFrom": "Streaming",
+        "priority": 10,
+        "url": "http://123.31.36.68/live.m3u8?c=vstv361&q=high&type=tv&token=1111&time=1586395820&gcId=1532&userId=&deviceId=&deviceType=&location=NA&requestTime=1586309420781&pkg=pkg11.hni"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "lam-dong",
+    "channelName": "Lâm Đồng",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/dg27e6ku_lam-dong_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-ltv-truyen-hinh-lam-dong-55163.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-lâm-Đồng-224.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/lam-dong/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "lang-son-1",
+    "channelName": "Lạng Sơn",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/kgun67b5_lang-son_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/xem-kenh-lstv-truyen-hinh-lang-son-1956.html",
+        "priority": 0,
+        "sourceFrom": "HTV_BACKUP"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/lang-son-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "lao-cai",
+    "channelName": "Lào Cai",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "http://laocaitv.vn/lib/images/logo1.png",
+    "channelUrls": [
+      {
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-lào-cai-247.html",
+        "priority": 0,
+        "sourceFrom": "VTV_BACKUP"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "long-an-1",
+    "channelName": "Long An",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/ch0rj2o1_long-an_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/xem-kenh-longantv-873.html",
+        "priority": 0,
+        "sourceFrom": "HTV_BACKUP"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/long-an-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "nam-dinh",
+    "channelName": "Nam Định",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/11/15/6fvhqoke_namdinhe7c082f8b4d11f98d788f2471c8e7c10_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://hplus.com.vn/xem-kenh-truyen-hinh-nam-dinh-88218.html",
+        "priority": 1,
+        "sourceFrom": "HTV_BACKUP"
+      },
+      {
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-nam-Định-249.html",
+        "priority": 0,
+        "sourceFrom": "VTV_BACKUP"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/nam-dinh/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "ninh-binh-11",
+    "channelName": "Ninh Bình",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/05/14/d7j2tiuh_ninhbinhtv_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-ninh-bình-183.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/ninh-binh-11/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "ninh-thuan-1",
+    "channelName": "Ninh Thuận",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/22/nt29fpd8_ninhthuan_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/ninh-thuan-1/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "nghe-an-1",
+    "channelName": "Nghệ An",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/2f96yu6e_nghe-anc59b1eb4f19eb9b3ab6ec12ffd77dd69_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-nghệ-an-121.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/nghe-an-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "phutho",
+    "channelName": "Phú Thọ",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "icon_channel_phu_tho_14588083472.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-phú-thọ-229.html"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "phuyen",
+    "channelName": "Phú Yên",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "icon_channel_phu_yen_151298361962.png",
+    "channelUrls": [
+      {
+        "sourceFrom": "Streaming",
+        "priority": 10,
+        "url": "http://113.161.4.48:8080/phuyen/tv/index.m3u8"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-phú-yên-18.html"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "soc-trang-1",
+    "channelName": "Sóc Trăng",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/01/4jjr657s_soctrang_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-sóc-trăng-241.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/soc-trang-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "tien-giang-1",
+    "channelName": "Tiền Giang",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/zz2iq4do_tien-giang_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/truyen-hinh-tien-giang-thtg"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/tien-giang-1/",
+        "priority": 2,
+        "sourceFrom": "V"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 1,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-tiền-giang-123.html"
+      },
+      {
+        "sourceFrom": "Streaming",
+        "priority": 10,
+        "url": "http://thtg.vn:8001/thtg.m3u8"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "tra-vinh-1",
+    "channelName": "Trà Vinh",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/29/wtund95b_travinh_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/tra-vinh-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-trà-vinh-232.html"
+      },
+      {
+        "sourceFrom": "Streaming",
+        "priority": 10,
+        "url": "https://60acee235f4d5.streamlock.net:443/THTV/travinhtv/chunklist.m3u8"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "tay-ninh-3",
+    "channelName": "Tây Ninh HD",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/3zwahyeb_tay-ninh_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-ttv11-truyen-hinh-tay-ninh-1981.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-tây-ninh-222.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/tay-ninh-3/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "tuyen-quang-1",
+    "channelName": "Tuyên Quang",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/22/y3k1ecmp_tuyenquang_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-tuyên-quang-235.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/tuyen-quang-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "thai-nguyen-1",
+    "channelName": "Thái Nguyên",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/10/28/78i2i4aw_thainguyen_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/thai-nguyen-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-thái-nguyên-238.html"
+      },
+      {
+        "sourceFrom": "Streaming",
+        "priority": 10,
+        "url": "https://streaming.thainguyentv.vn/hls/livestream.m3u8"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "thai-binh-1",
+    "channelName": "Thái Bình",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/22/1vzivocp_thaibinh_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/thai-binh-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-thái-bình-129.html"
+      },
+      {
+        "sourceFrom": "Streaming",
+        "priority": 10,
+        "url": "https://stream.thaibinhtv.vn/live/285fe61ba73072f428d8a626d764222e744/chunklist.m3u8"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "thanh-hoa-48",
+    "channelName": "Thanh Hóa",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/24/60jv709d_thanh-hoa_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-thanh-hoá-181.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/thanh-hoa-48/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "thua-thien-hue-1",
+    "channelName": "Thừa Thiên Huế",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/p5yvku7m_thua-thien-hue_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/thua-thien-hue-1/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "quang-nam-1",
+    "channelName": "Quảng Nam",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/deyzty1b_quang-nam_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/quang-nam-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      },
+      {
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-quảng-nam-248.html",
+        "priority": 0,
+        "sourceFrom": "VTV_BACKUP"
+      },
+      {
+        "url": "https://hplus.com.vn/xem-kenh-qrt-truyen-hinh-quang-nam-1787.html",
+        "priority": 1,
+        "sourceFrom": "HTV_BACKUP"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "quang-ninh-1",
+    "channelName": "Quảng Ninh 1",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/11/08/urogkht3_quangninh1_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-quảng-ninh-119.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/quang-ninh-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      },
+      {
+        "sourceFrom": "Streaming",
+        "priority": 10,
+        "url": "http://103.90.220.236/qtvlive/tv1live.m3u8"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "quang-ninh-3",
+    "channelName": "Quảng Ninh 3",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/11/08/wb15fvsx_quangninh3_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/quang-ninh-3/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "quang-binh-1",
+    "channelName": "Quảng Bình",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/22/ij08jiqu_quangbinhde0917e1443678e11e0767ba57c5daa4_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-quảng-bình-236.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/quang-binh-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "quang-ngai-1",
+    "channelName": "Quảng Ngãi",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/03/22/31jzvzre_quangngai_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-quảng-ngãi-233.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/quang-ngai-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "quang-tri-1",
+    "channelName": "Quảng Trị",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/06/17/ayvc9udv_quangtri_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-quảng-trị-239.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/quang-tri-1/",
+        "priority": 1,
+        "sourceFrom": "V"
+      },
+      {
+        "sourceFrom": "Streaming",
+        "priority": 10,
+        "url": "http://103.90.220.236/qrtvlive/tv1live.m3u8"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "vinh-phuc-1",
+    "channelName": "Vĩnh Phúc",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/j8fjg1uj_vinh-phuc_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-vp-truyen-hinh-vinh-phuc-990.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-vĩnh-phúc-147.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vinh-phuc-1/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "yen-bai-1",
+    "channelName": "Yên Bái",
+    "channelCategoryId": "DiaPhuong",
+    "channelCategoryName": "Địa phương",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/10/28/o7ur00yw_yenbai900320c6fc579e6dc590df8437218ede_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/yen-bai-1/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "DiaPhuong"
+  },
+  {
+    "channelId": "an-ninh-hd",
+    "channelName": "An Ninh TV HD",
+    "channelCategoryId": "AnNinh",
+    "channelCategoryName": "An Ninh",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/txf8vssk_an-ninh-tv_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-công-an-nhân-dân-89.html"
+      },
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 1,
+        "url": "https://hplus.com.vn/xem-kenh-antv-hd-73411.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/an-ninh-hd/",
+        "priority": 10,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "AnNinh"
+  },
+  {
+    "channelId": "vnews-hd",
+    "channelName": "TH Thông Tấn HD",
+    "channelCategoryId": "AnNinh",
+    "channelCategoryName": "An Ninh",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/6gx5feuu_vnews_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 2,
+        "url": "https://hplus.com.vn/xem-kenh-thong-tan-xa-viet-nam-50070.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-thông-tấn-vnews-97.html"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/ttxvn-7ddba314"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vnews-hd/",
+        "priority": 20,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "AnNinh"
+  },
+  {
+    "channelId": "quoc-phong-hd",
+    "channelName": "Quốc Phòng HD",
+    "channelCategoryId": "AnNinh",
+    "channelCategoryName": "An Ninh",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/03/08/zrmo78ik_microsoftteams-imagede183b12d07781976c0090a26d7bef37_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/qpvn-fea05134"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-quốc-phòng-việt-nam-103.html"
+      },
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 2,
+        "url": "https://hplus.com.vn/xem-kenh-quoc-phong-viet-nam-50068.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/quoc-phong-hd/",
+        "priority": 20,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "AnNinh"
+  },
+  {
+    "channelId": "quoc-hoi-viet-nam-hd",
+    "channelName": "Quốc Hội HD",
+    "channelCategoryId": "AnNinh",
+    "channelCategoryName": "An Ninh",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/10/03/rrpb2y9m_quochoitimeshift_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "HTV_BACKUP",
+        "priority": 2,
+        "url": "https://hplus.com.vn/xem-kenh-quoc-hoi-50069.html"
+      },
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-quốc-hội-việt-nam-217.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/quoc-hoi-viet-nam-hd/",
+        "priority": 20,
+        "sourceFrom": "V"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/qhvn-d4b53626"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "AnNinh"
+  },
+  {
+    "channelId": "nhan-dan-hd",
+    "channelName": "Nhân Dân TV HD",
+    "channelCategoryId": "AnNinh",
+    "channelCategoryName": "An Ninh",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/w5rqtt1d_nhan-dan_296_168.webp",
+    "channelUrls": [
+      {
+        "sourceFrom": "VTV_BACKUP",
+        "priority": 0,
+        "url": "https://vtvgo.vn/xem-truc-tuyen-kenh-truyền-hình-nhân-dân-95.html"
+      },
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/nhan-dan-hd/",
+        "priority": 2,
+        "sourceFrom": "V"
+      },
+      {
+        "sourceFrom": "SCTV",
+        "priority": 1,
+        "url": "https://sctvonline.vn/detail/nhan-dan-tv-2a275c3f"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "AnNinh"
+  },
+  {
+    "channelId": "an-vien-hd",
+    "channelName": "An Viên HD",
+    "channelCategoryId": "AnNinh",
+    "channelCategoryName": "An Ninh",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/5ztyns10_anvien-tv_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/an-vien-hd/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "AnNinh"
+  },
+  {
+    "channelId": "abc-australia",
+    "channelName": "ABC Australia",
+    "channelCategoryId": "Intenational",
+    "channelCategoryName": "Quốc tế",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/15/oqe9bqv9_abc-australia_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/abc-australia/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "Intenational"
+  },
+  {
+    "channelId": "kbs-world",
+    "channelName": "KBS World HD",
+    "channelCategoryId": "Intenational",
+    "channelCategoryName": "Quốc tế",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/08/04/eeog1k5p_kbs1bb127060ce3f7046d9177c2498d73fb_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/kbs-world/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "Intenational"
+  },
+  {
+    "channelId": "nhk-world",
+    "channelName": "NHK World",
+    "channelCategoryId": "Intenational",
+    "channelCategoryName": "Quốc tế",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/07/28/7r7yuz4b_nhk-world268b7c033a830c939ce0493c0cd83588_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/nhk-world/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "Intenational"
+  },
+  {
+    "channelId": "channel-news-asia-hd",
+    "channelName": "Channel News Asia HD",
+    "channelCategoryId": "Intenational",
+    "channelCategoryName": "Quốc tế",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/fwyqbchg_channel-news-asia_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/channel-news-asia-hd/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "Intenational"
+  },
+  {
+    "channelId": "dw-hd",
+    "channelName": "DW HD",
+    "channelCategoryId": "Intenational",
+    "channelCategoryName": "Quốc tế",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/9f3p4fk0_dw_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/dw-hd/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "Intenational"
+  },
+  {
+    "channelId": "france-24-english-hd",
+    "channelName": "France 24 English HD",
+    "channelCategoryId": "Intenational",
+    "channelCategoryName": "Quốc tế",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/4e1bqp9y_france-english_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/france-24-english-hd/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "Intenational"
+  },
+  {
+    "channelId": "france-24-1",
+    "channelName": "France 24",
+    "channelCategoryId": "Intenational",
+    "channelCategoryName": "Quốc tế",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/14/efx0r0nn_france-france_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/france-24-1/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "Intenational"
+  },
+  {
+    "channelId": "asian-food-network",
+    "channelName": "Asian Food Network",
+    "channelCategoryId": "Intenational",
+    "channelCategoryName": "Quốc tế",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/10/22/2tykr6xc_thumbnail-afn_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/asian-food-network/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "Intenational"
+  },
+  {
+    "channelId": "da-vinci-1",
+    "channelName": "Da Vinci",
+    "channelCategoryId": "Intenational",
+    "channelCategoryName": "Quốc tế",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/10/22/8v3yq9do_thumbnail-da-vinci_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/da-vinci-1/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "Intenational"
+  },
+  {
+    "channelId": "outdoor-channel",
+    "channelName": "Outdoor Channel",
+    "channelCategoryId": "Intenational",
+    "channelCategoryName": "Quốc tế",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/10/22/pykjyp5z_thumbnail-outdoor_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/outdoor-channel/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "Intenational"
+  },
+  {
+    "channelId": "kix",
+    "channelName": "Kix",
+    "channelCategoryId": "Intenational",
+    "channelCategoryName": "Quốc tế",
+    "channelLogo": "https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/02/21/h8hfr6y8_thumbnail-kix-copy_296_168.webp",
+    "channelUrls": [
+      {
+        "url": "https://vieon.vn/truyen-hinh-truc-tuyen/kix/",
+        "priority": 0,
+        "sourceFrom": "V"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "Intenational"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "onsportsnews",
+    "channelName": "OnSportsNews",
+    "channelLogo": "https://profile.img.onlive.vn/LOGO/on/ongolf/ongolf.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/onsportsnews/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "onsports",
+    "channelName": "OnSports",
+    "channelLogo": "https://profile.img.onlive.vn/LOGO/on/onsports/onsports.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/onsports/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "onsportsplus",
+    "channelName": "OnSportsPlus",
+    "channelLogo": "https://profile.img.onlive.vn/LOGO/on/onsportsplus/onsportsplus.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/onsportsplus/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "onfootball",
+    "channelName": "OnFootball",
+    "channelLogo": "https://profile.img.onlive.vn/LOGO/on/onfootball/onfootball.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/onfootball/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "onstyle",
+    "channelName": "OnStyle",
+    "channelLogo": "https://profile.img.onlive.vn/LOGO/on/onstyle/onstyle.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/onstyle/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "ongolf",
+    "channelName": "OnGolf",
+    "channelLogo": "https://profile.img.onlive.vn/LOGO/on/ongolf/ongolf.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/ongolf/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "o2tvvtvcab",
+    "channelName": "ON O2TV",
+    "channelLogo": "https://stimg.onlive.vn/LOGO/o2/o2tvvtvcab/o2tvvtvcab.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/o2tvvtvcab/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "viegiaitri",
+    "channelName": "Vie Giải Trí",
+    "channelLogo": "https://profile.img.onlive.vn/LOGO/on/viegiaitri/viegiaitri.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/viegiaitri/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "onmovies",
+    "channelName": "On Movies",
+    "channelLogo": "https://profile.img.onlive.vn/LOGO/on/onmovies/onmovies.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/viegiaitri/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "ligue1",
+    "channelName": "Ligue1",
+    "channelLogo": "https://stimg.onlive.vn/LOGO/li/ligue1/ligue1.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/ligue1/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "seriea",
+    "channelName": "Seriea",
+    "channelLogo": "https://stimg.onlive.vn/LOGO/se/seriea/seriea.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/seriea/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "bundesliga",
+    "channelName": "Bundesliga",
+    "channelLogo": "https://stimg.onlive.vn/LOGO/bu/bundesliga/bundesliga.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/bundesliga/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "VTVCabOn",
+    "channelCategoryName": "VTVCabOn",
+    "channelId": "tructiepmma",
+    "channelName": "MMA",
+    "channelLogo": "https://stimg.onlive.vn/LOGO/tr/tructiepmma/tructiepmma.jpg",
+    "channelUrls": [
+      {
+        "sourceFrom": "OnLive",
+        "priority": 0,
+        "url": "https://play.onlive.vn/tructiepmma/"
+      }
+    ],
+    "tags": "VTVCabOn",
+    "channelType": "TV"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctvhdpth",
+    "channelName": "SCTV Phim Tổng Hợp",
+    "channelLogo": "https://s11.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s11.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/82_51400b18.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv-phim-tong-hop-e6d2df88"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV Phim Tổng Hợp"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv1hd",
+    "channelName": "SCTV1",
+    "channelLogo": "https://s3.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s3.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/11_18513b6b.jpg?width=384&amp;version=9&amp;type=auto&amp;s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv1-hd-7f2aafec"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV1"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv2hd",
+    "channelName": "SCTV2",
+    "channelLogo": "https://imaginary.endpoint.cdn.sctvonline.vn/tenants/none_tenant/photos/2_fd5dc799.jpg?width=384&amp;version=9&amp;type=auto&amp;s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv2-57c3884d"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV2"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv3hd",
+    "channelName": "SCTV3",
+    "channelLogo": "https://s8.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s8.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/3_efafd3ec.jpg?width=384&amp;version=9&amp;type=auto&amp;s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv3-hd-cf3adaca"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV3"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv4hd",
+    "channelName": "SCTV4",
+    "channelLogo": "https://s12.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s1.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/4_23b344ec.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv4-ae779f7e"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV4"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv5hd",
+    "channelName": "SCTV5",
+    "channelLogo": "https://imaginary.endpoint.cdn.sctvonline.vn/tenants/none_tenant/photos/5_4efd92d7.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv5-a3cdb592"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV5"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv6hd",
+    "channelName": "SCTV6",
+    "channelLogo": "https://s9.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s9.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/6_132935f2.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv6-202e4566"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV6"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv7hd",
+    "channelName": "SCTV7",
+    "channelLogo": "https://s7.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s7.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/7_15259bbf.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv7-ef7e259a"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV7"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv8hd",
+    "channelName": "SCTV8",
+    "channelLogo": "https://s12.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s13.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/8_efcc1082.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv8-c12d138b"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV8"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv10hd",
+    "channelName": "SCTV10",
+    "channelLogo": "https://s2.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s2.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/10_dd39c053.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv10-0faf313b"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV10"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv11hd",
+    "channelName": "SCTV11",
+    "channelLogo": "https://s3.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s3.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/11_18513b6b.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv11-1d565c47"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV11"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv12hd",
+    "channelName": "SCTV12",
+    "channelLogo": "https://s8.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s8.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/12_c58b7453.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv12-b0d6c023"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV12"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv13hd",
+    "channelName": "SCTV13",
+    "channelLogo": "https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/13_29828548.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv13-67f88fcb"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV13"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv17hd",
+    "channelName": "SCTV17",
+    "channelLogo": "https://s11.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s11.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/17_03ba5e54.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv17-hd-87f0ff9d"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV17"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv18hd",
+    "channelName": "SCTV18",
+    "channelLogo": "https://s9.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s9.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/18_664a253b.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv18-398b0b4e"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV18"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv19hd",
+    "channelName": "SCTV19",
+    "channelLogo": "https://s5.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s12.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/19_3b86f52a.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv19-bf00bd02"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV19"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv20hd",
+    "channelName": "SCTV20",
+    "channelLogo": "https://s2.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s2.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/20_6c70556d.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv19-cb98949a"
+      }
+    ]
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "ssctv21hd",
+    "channelName": "SCTV21",
+    "channelLogo": "https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/21_8f6788be.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv-21-57de221a"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV20"
+  },
+  {
+    "channelCategoryId": "SCTV",
+    "channelCategoryName": "SCTV",
+    "channelId": "sctv22hd",
+    "channelName": "SCTV22",
+    "channelLogo": "https://s9.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s3.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/22_881fabb7.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+    "channelUrls": [
+      {
+        "sourceFrom": "SCTV",
+        "priority": 0,
+        "url": "https://sctvonline.vn/detail/sctv22-d388dc25"
+      }
+    ],
+    "channelType": "TV",
+    "tags": "SCTV22"
+  }
+]
