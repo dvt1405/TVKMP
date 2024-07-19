@@ -1,5 +1,6 @@
 package tv.iptv.tun.tviptv.android
 
+import tv.iptv.tun.tviptv.ui.App
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -10,15 +11,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.toCollection
 import kotlinx.coroutines.launch
-import tv.iptv.tun.tviptv.Greeting
 import tv.iptv.tun.tviptv.database.DatabaseQueries
 import tv.iptv.tun.tviptv.database.sqlDriverFactory
-import tv.iptv.tun.tviptv.jsonxml.ProgrammeResponseDTO
-import tv.iptv.tun.tviptv.network.HttpClientManager
-import tv.iptv.tun.tviptv.repository.iptv.ExtensionsChannel
 import tv.iptv.tun.tviptv.repository.iptv.IPTVSourceConfig
 import tv.iptv.tun.tviptv.repository.iptv.ParserIPTVDataSource
 
@@ -31,7 +27,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    GreetingView(Greeting().greet())
+                    App()
                 }
             }
         }
@@ -64,6 +60,6 @@ fun GreetingView(text: String) {
 @Composable
 fun DefaultPreview() {
     MyApplicationTheme {
-        GreetingView("Hello, Android!")
+        App()
     }
 }

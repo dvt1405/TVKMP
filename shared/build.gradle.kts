@@ -1,9 +1,14 @@
+import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.sqldelight)
     id("com.google.devtools.ksp")
+    alias(libs.plugins.jetbrainsCompose)
+    alias(libs.plugins.compose.compiler)
 }
 
 repositories {
@@ -16,10 +21,11 @@ kotlin {
         publishAllLibraryVariants()
         compilations.all {
             kotlinOptions {
-                jvmTarget = "1.8"
+                jvmTarget = JvmTarget.JVM_11.target
             }
         }
     }
+
     listOf(
         iosX64(),
         iosArm64(),
@@ -35,6 +41,12 @@ kotlin {
         commonMain.dependencies {
             implementation(kotlin("stdlib-common"))
             implementation(kotlin("stdlib"))
+            implementation(compose.runtime)
+            implementation(compose.foundation)
+            implementation(compose.material)
+            implementation(compose.ui)
+            implementation(compose.components.resources)
+            implementation(compose.components.uiToolingPreview)
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.ktor.client.core)
@@ -62,7 +74,6 @@ kotlin {
                 implementation(libs.google.firebase.config.ktx)
                 implementation(libs.jsoup)
                 implementation(libs.sqldelight.android.driver)
-                implementation(libs.sqldelight.android.driver)
                 implementation(libs.ktor.client.android)
                 implementation(libs.ksp.symbol.processing.api)
             }
@@ -80,7 +91,6 @@ kotlin {
         iosMain.dependencies {
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.ktor.client.ios)
-            implementation(libs.sqldelight.native.driver)
             implementation(libs.sqldelight.native.driver)
         }
         iosTest.dependencies {
@@ -109,7 +119,7 @@ android {
         minSdk = 23
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
 }

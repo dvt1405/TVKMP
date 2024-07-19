@@ -1,29 +1,18 @@
+import UIKit
 import SwiftUI
 import shared
 
-struct ContentView: View {
-	let greet = Greeting().greet()
-    @State private var iptvUrl: String = ""
-//    @FocusState private var focusedIPTV: Bool = false
+struct ComposeView: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> UIViewController {
+        MainViewControllerKt.MainViewController()
+    }
 
-	var body: some View {
-        VStack() {
-            TextField("IPTV Url", text: $iptvUrl)
-                .frame(height: 60)
-                .textFieldStyle(PlainTextFieldStyle())
-                .cornerRadius(10)
-                .padding([.trailing, .leading], 16)
-                .overlay(RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color.gray)
-                    .padding([.trailing, .leading], 2))
-                .disableAutocorrection(true)
-            Text(iptvUrl)
-        }
-	}
+    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
 }
 
-struct ContentView_Previews: PreviewProvider {
-	static var previews: some View {
-		ContentView()
-	}
+struct ContentView: View {
+    var body: some View {
+        ComposeView()
+                .ignoresSafeArea(.keyboard) // Compose has own keyboard handler
+    }
 }
