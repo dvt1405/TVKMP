@@ -1,5 +1,5 @@
 [versions]
-agp = "8.5.0"
+agp = "8.3.2"
 firebaseAnalytics = "22.0.2"
 firebaseBom = "33.1.2"
 firebaseConfigKtx = "22.0.0"
@@ -28,9 +28,11 @@ ktorClientEncoding = "2.3.0"
 ktorClientIos = "2.2.3"
 ktorClientMock = "2.0.0"
 ktorClientMockJvm = "2.0.0"
+lifecycleViewmodelCompose = "2.8.0"
 multiplatformSettings = "1.1.1"
 junitJupiter = "5.9.1"
 junit = "4.12"
+navigationCompose = "2.7.0-alpha07"
 serialization = "2.0.0"
 serializationVersion = "0.90.1"
 sqldelight = "2.0.0-alpha05"
@@ -73,9 +75,11 @@ ktor-client-mock = { module = "io.ktor:ktor-client-mock", version.ref = "ktorCli
 ktor-client-mock-jvm = { module = "io.ktor:ktor-client-mock-jvm", version.ref = "ktorClientMockJvm" }
 ktor-client-serialization = { module = "io.ktor:ktor-client-serialization", version.ref = "ktorClientCore" }
 ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktorClientCore" }
+lifecycle-viewmodel-compose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
 multiplatform-settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "multiplatformSettings" }
 junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junitJupiter" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
+navigation-compose = { module = "org.jetbrains.androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 xmlutil-serialization = { module = "io.github.pdvrieze.xmlutil:serialization", version.ref = "serializationVersion" }
 xmlutil-core = { module = "io.github.pdvrieze.xmlutil:core", version.ref = "serializationVersion" }
 sqldelight-native-driver = { module = "app.cash.sqldelight:native-driver", version.ref = "sqldelight" }

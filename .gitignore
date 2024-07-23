@@ -12,3 +12,10 @@ xcuserdata
 /shared/src/androidMain/kotlin/services/com.google.devtools.ksp.processing.SymbolProcessorProvider
 /.kotlin/sessions/kotlin-compiler-15856624034620784772.salive
 /.kotlin/sessions/kotlin-compiler-11993221404349589331.salive
+/iosApp/Pods/
+/iosApp/iosApp.xcworkspace/contents.xcworkspacedata
+/iosApp/iosApp.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+/iosApp/Pods/SQLite.swift/LICENSE.txt
+/iosApp/Pods/Manifest.lock
+/iosApp/Pods/SQLite.swift/Sources/SQLite/Typed/Operators.swift
+/iosApp/Podfile.lock

@@ -10,12 +10,13 @@ import tv.iptv.tun.tviptv.models.PlayerConfig
 import tv.iptv.tun.tviptv.models.SourceFrom
 import tv.iptv.tun.tviptv.network.HttpClientManager
 import tv.iptv.tun.tviptv.storage.IKeyValueStorage
+import tv.iptv.tun.tviptv.storage.KeyValueStorage
 import tv.iptv.tun.tviptv.utils.htmlParser
 import tv.iptv.tun.tviptv.utils.toUrlOrNull
 
 open class HTVBackUpDataSourceImpl(
     private val client: HttpClientManager = HttpClientManager,
-    private val sharePreference: IKeyValueStorage = IKeyValueStorage
+    private val sharePreference: IKeyValueStorage = KeyValueStorage
 ) : AbsChildTVDataSource() {
 
     private val config: ChannelSourceConfig by lazy {

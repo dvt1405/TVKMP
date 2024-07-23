@@ -17,6 +17,7 @@ import tv.iptv.tun.tviptv.network.apimodels.FormBody
 import tv.iptv.tun.tviptv.network.apimodels.Request
 import tv.iptv.tun.tviptv.repository.firebase.RemoteConfigWrapper
 import tv.iptv.tun.tviptv.storage.IKeyValueStorage
+import tv.iptv.tun.tviptv.storage.KeyValueStorage
 import tv.iptv.tun.tviptv.utils.getJsonObject
 import tv.iptv.tun.tviptv.utils.getOrigin
 import tv.iptv.tun.tviptv.utils.getString
@@ -24,8 +25,7 @@ import tv.iptv.tun.tviptv.utils.htmlParser
 
 class OnLiveDataSource(
     private val client: HttpClientManager = HttpClientManager,
-    private val sharePreference: IKeyValueStorage = IKeyValueStorage,
-    private val _remoteConfig: RemoteConfigWrapper = RemoteConfigWrapper
+    private val sharePreference: IKeyValueStorage = KeyValueStorage
 ) : AbsChildTVDataSource() {
     private val mapSerializable = MapSerializer(String.serializer(), String.serializer())
 

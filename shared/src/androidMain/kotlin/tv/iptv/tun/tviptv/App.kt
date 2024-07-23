@@ -11,6 +11,10 @@ class App : Application() {
     companion object {
         private lateinit var INSTANCE: App
 
-        fun get() = INSTANCE
+        fun get() = if (this::INSTANCE.isInitialized) {
+            INSTANCE
+        } else {
+            App()
+        }
     }
 }

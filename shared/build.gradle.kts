@@ -6,7 +6,6 @@ plugins {
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.sqldelight)
-    id("com.google.devtools.ksp")
     alias(libs.plugins.jetbrainsCompose)
     alias(libs.plugins.compose.compiler)
 }
@@ -43,10 +42,10 @@ kotlin {
             implementation(kotlin("stdlib"))
             implementation(compose.runtime)
             implementation(compose.foundation)
-            implementation(compose.material)
+            implementation(compose.material3)
+            implementation(compose.materialIconsExtended)
             implementation(compose.ui)
             implementation(compose.components.resources)
-            implementation(compose.components.uiToolingPreview)
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.ktor.client.core)
@@ -59,6 +58,8 @@ kotlin {
             implementation(libs.kotlinx.datetime)
             implementation(libs.xmlutil.serialization)
             implementation(libs.xmlutil.core)
+            implementation(libs.lifecycle.viewmodel.compose)
+            implementation(libs.navigation.compose)
         }
         commonTest.dependencies {
             implementation(kotlin("test-common"))
@@ -75,7 +76,9 @@ kotlin {
                 implementation(libs.jsoup)
                 implementation(libs.sqldelight.android.driver)
                 implementation(libs.ktor.client.android)
-                implementation(libs.ksp.symbol.processing.api)
+                implementation(libs.compose.ui.tooling.preview)
+                implementation(libs.androidx.activity.compose)
+                implementation(libs.compose.ui.tooling)
             }
         }
         val androidUnitTest by getting {
@@ -108,10 +111,6 @@ sqldelight {
     }
 }
 
-ksp {
-    arg("projectBaseDir", projectDir.toString())
-}
-
 android {
     namespace = "tv.iptv.tun.tviptv"
     compileSdk = 34
@@ -122,4 +121,8 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
+//    sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
+    sourceSets["main"].res.srcDirs("src/androidMain/res")
+    sourceSets["main"].resources.srcDirs("src/commonMain/composeResources")
 }

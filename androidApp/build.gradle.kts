@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.google.services)
-    id("com.google.devtools.ksp")
+    alias(libs.plugins.jetbrainsCompose)
 }
 
 android {
@@ -43,6 +43,11 @@ android {
 
 dependencies {
     implementation(projects.shared)
+    implementation(compose.runtime)
+    implementation(compose.foundation)
+    implementation(compose.material3)
+    implementation(compose.ui)
+    implementation(compose.components.resources)
     implementation(libs.compose.ui)
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.compose.material3)
@@ -51,5 +56,6 @@ dependencies {
     implementation(libs.firebase.analytics)
     implementation(libs.firebase.config.ktx)
     implementation(libs.kotlinx.serialization.json)
+    implementation(libs.navigation.compose)
     debugImplementation(libs.compose.ui.tooling)
 }

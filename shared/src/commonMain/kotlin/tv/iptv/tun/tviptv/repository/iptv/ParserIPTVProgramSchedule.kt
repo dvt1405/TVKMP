@@ -30,6 +30,7 @@ import tv.iptv.tun.tviptv.network.HttpClientManager
 import tv.iptv.tun.tviptv.repository.firebase.RemoteConfigWrapper
 import tv.iptv.tun.tviptv.repository.iptv.model.TVScheduler
 import tv.iptv.tun.tviptv.storage.IKeyValueStorage
+import tv.iptv.tun.tviptv.storage.KeyValueStorage
 import tv.iptv.tun.tviptv.utils.JsonUtil
 import tv.iptv.tun.tviptv.utils.Logger
 import tv.iptv.tun.tviptv.utils.d
@@ -46,7 +47,7 @@ import kotlin.time.toDuration
 
 class ParserIPTVProgramSchedule constructor(
     private val client: HttpClientManager = HttpClientManager,
-    private val storage: IKeyValueStorage = IKeyValueStorage,
+    private val storage: IKeyValueStorage = KeyValueStorage,
     private val databaseQueries: DatabaseQueries = DatabaseQueries(sqlDriverFactory),
     private val firebaseRemoteConfig: RemoteConfigWrapper = RemoteConfigWrapper,
 ) : CoroutineScope {

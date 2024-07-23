@@ -4,6 +4,7 @@ import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.HttpClientEngineConfig
 import io.ktor.client.engine.HttpClientEngineFactory
+import io.ktor.client.plugins.SocketTimeoutException
 import io.ktor.client.plugins.compression.ContentEncoding
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.plugins.logging.LogLevel
@@ -24,6 +25,7 @@ import io.ktor.serialization.kotlinx.json.json
 import io.ktor.utils.io.ByteReadChannel
 import io.ktor.utils.io.readUTF8Line
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.emitAll
 import kotlinx.coroutines.flow.flow
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.json.Json
@@ -97,17 +99,24 @@ open class HttpClientManager private constructor() {
     suspend fun getLineByLine(
         url: String,
         vararg headers: Pair<String, String>
-    ): Flow<String> {
-        val channel = client.prepareGet(url) {
-            if (headers.isNotEmpty()) {
-                headers.forEach { entry ->
-                    this.headers[entry.first] = entry.second
+    ): Flow<String> = flow {
+        val res = try {
+            client.prepareGet(url) {
+                if (headers.isNotEmpty()) {
+                    headers.forEach { entry ->
+                        this.headers[entry.first] = entry.second
+                    }
                 }
-            }
+            }.execute()
+        } catch (e: Exception) {
+            throw e
         }
-            .execute()
-            .body<ByteReadChannel>()
-        return readLines(channel)
+        val channel = if (res.status.isSuccess()) {
+            res.body<ByteReadChannel>()
+        } else {
+            throw NetworkExceptions(res.status.value, res.status.description)
+        }
+        emitAll(readLines(channel))
     }
 
     private fun readLines(channel: ByteReadChannel) = flow {

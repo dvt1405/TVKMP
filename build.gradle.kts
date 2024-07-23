@@ -1,10 +1,10 @@
 buildscript {
-    dependencies {
-        classpath(libs.kotlin.gradle.plugin)
-    }
-    repositories {
-        maven(url = "https://oss.sonatype.org/content/repositories/snapshots/")
-    }
+//    dependencies {
+//        classpath(libs.kotlin.gradle.plugin)
+//    }
+//    repositories {
+//        maven(url = "https://oss.sonatype.org/content/repositories/snapshots/")
+//    }
 }
 
 plugins {
@@ -18,5 +18,4 @@ plugins {
     alias(libs.plugins.jetbrainsCompose) apply false
     alias(libs.plugins.sqldelight).apply(false)
     alias(libs.plugins.google.services).apply(false)
-    id("com.google.devtools.ksp") version "2.0.0-1.0.23"
 }

@@ -22,6 +22,7 @@ import tv.iptv.tun.tviptv.models.SourceFrom
 import tv.iptv.tun.tviptv.repository.ITVDataSource
 import tv.iptv.tun.tviptv.repository.firebase.RemoteConfigWrapper
 import tv.iptv.tun.tviptv.storage.IKeyValueStorage
+import tv.iptv.tun.tviptv.storage.KeyValueStorage
 import tv.iptv.tun.tviptv.utils.AssetReader
 import tv.iptv.tun.tviptv.utils.JsonUtil
 import tv.iptv.tun.tviptv.utils.Logger
@@ -30,7 +31,7 @@ import tv.iptv.tun.tviptv.utils.e
 
 open class MainDataSource(
     private val _mapDataSource: TVDataSource.Factory = TVDataSource.Factory,
-    private val _sharedPreference: IKeyValueStorage = IKeyValueStorage,
+    private val _sharedPreference: IKeyValueStorage = KeyValueStorage,
     private val _remoteConfig: RemoteConfigWrapper = RemoteConfigWrapper
 ) : ITVDataSource {
 

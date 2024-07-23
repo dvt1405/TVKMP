@@ -12,13 +12,14 @@ import tv.iptv.tun.tviptv.models.SourceFrom
 import tv.iptv.tun.tviptv.network.HttpClientManager
 import tv.iptv.tun.tviptv.network.apimodels.Request
 import tv.iptv.tun.tviptv.storage.IKeyValueStorage
+import tv.iptv.tun.tviptv.storage.KeyValueStorage
 import tv.iptv.tun.tviptv.storage.cacheCookie
 import tv.iptv.tun.tviptv.utils.HtmlParser
 import tv.iptv.tun.tviptv.utils.createHTMLParser
 
 class VOVDataSourceImpl constructor(
     private val client: HttpClientManager = HttpClientManager,
-    private val sharePreference: IKeyValueStorage = IKeyValueStorage,
+    private val sharePreference: IKeyValueStorage = KeyValueStorage,
     private val htmlParser: HtmlParser = createHTMLParser()
 ) : AbsChildTVDataSource() {
     private val cookie: MutableMap<String, String>

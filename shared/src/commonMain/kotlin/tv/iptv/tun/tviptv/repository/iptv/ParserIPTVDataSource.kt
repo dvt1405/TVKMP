@@ -13,13 +13,14 @@ import tv.iptv.tun.tviptv.database.sqlDriverFactory
 import tv.iptv.tun.tviptv.network.HttpClientManager
 import tv.iptv.tun.tviptv.repository.firebase.RemoteConfigWrapper
 import tv.iptv.tun.tviptv.storage.IKeyValueStorage
+import tv.iptv.tun.tviptv.storage.KeyValueStorage
 import tv.iptv.tun.tviptv.utils.JsonUtil
 import tv.iptv.tun.tviptv.utils.Logger
 import tv.iptv.tun.tviptv.utils.d
 
 open class ParserIPTVDataSource(
     private val client: HttpClientManager = HttpClientManager,
-    private val storage: IKeyValueStorage = IKeyValueStorage,
+    private val storage: IKeyValueStorage = KeyValueStorage,
     private val roomDataBase: DatabaseQueries = DatabaseQueries(sqlDriverFactory),
     private val programScheduleParser: ParserIPTVProgramSchedule = ParserIPTVProgramSchedule(),
     private val remoteConfig: RemoteConfigWrapper = RemoteConfigWrapper
@@ -231,6 +232,7 @@ open class ParserIPTVDataSource(
                 )
             }
             .onCompletion {
+                println(it)
                 programScheduleParser.runPendingSource()
             }.retry(3)
     }

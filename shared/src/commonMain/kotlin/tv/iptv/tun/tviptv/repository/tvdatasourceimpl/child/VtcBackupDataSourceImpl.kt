@@ -12,6 +12,7 @@ import tv.iptv.tun.tviptv.network.HttpClientManager
 import tv.iptv.tun.tviptv.network.apimodels.FormBody
 import tv.iptv.tun.tviptv.network.apimodels.Request
 import tv.iptv.tun.tviptv.storage.IKeyValueStorage
+import tv.iptv.tun.tviptv.storage.KeyValueStorage
 import tv.iptv.tun.tviptv.storage.cacheCookie
 import tv.iptv.tun.tviptv.utils.buildCookie
 import tv.iptv.tun.tviptv.utils.findFirstNumber
@@ -19,7 +20,7 @@ import tv.iptv.tun.tviptv.utils.getString
 
 class VtcBackupDataSourceImpl(
     private val client: HttpClientManager = HttpClientManager,
-    private val sharePreference: IKeyValueStorage = IKeyValueStorage,
+    private val sharePreference: IKeyValueStorage = KeyValueStorage,
 ) : AbsChildTVDataSource() {
     private val cookies: MutableMap<String, String>
     private val config: ChannelSourceConfig by lazy {
