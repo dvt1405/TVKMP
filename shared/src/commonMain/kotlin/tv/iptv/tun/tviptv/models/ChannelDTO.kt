@@ -45,4 +45,19 @@ data class ChannelDTO(
                 "}"
     }
 
+    companion object {
+        val testObj by lazy {
+            ChannelDTO(
+                "Channel Test",
+                "Channel Test",
+                "Channel Test",
+                "Channel Test",
+                "https://s8.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s8.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/3_efafd3ec.jpg?width=384&version=9&type=auto&s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn",
+                listOf(),
+                "Channel Test",
+                "Channel Test",
+            )
+        }
+    }
+
 }

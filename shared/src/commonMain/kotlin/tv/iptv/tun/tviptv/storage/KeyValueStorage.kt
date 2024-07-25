@@ -56,6 +56,10 @@ object KeyValueStorage : IKeyValueStorage {
         )
     }
 
+    override fun has(key: String): Boolean {
+        return settings.hasKey(key)
+    }
+
     override fun <T : Any> getObject(key: String, serializable: KSerializer<T>): T? {
         val str = settings.getString(key, "").takeIf {
             it.isNotEmpty()

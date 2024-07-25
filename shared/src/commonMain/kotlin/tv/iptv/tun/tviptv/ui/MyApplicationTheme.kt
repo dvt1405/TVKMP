@@ -1,4 +1,4 @@
-package tv.iptv.tun.tviptv.android
+package tv.iptv.tun.tviptv.ui
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -24,26 +24,32 @@ fun MyApplicationTheme(
         darkColorScheme(
             primary = Color(0xFFBB86FC),
             secondary = Color(0xFF03DAC5),
-            tertiary = Color(0xFF3700B3)
+            tertiary = Color(0xFF3700B3),
         )
     } else {
         lightColorScheme(
-            primary = Color(0xFF6200EE),
-            secondary = Color(0xFF03DAC5),
-            tertiary = Color(0xFF3700B3)
+            primary = Color(0xFF3071FF),
+            secondary = Color(0xFF00B6DF),
+            tertiary = Color(0xFF3700B3),
+            surface = Color(0xFFF6F7F9),
+            background = Color(0xFFF6F7F9),
+            primaryContainer = Color(0xFF17C6ED),
+            onPrimaryContainer = Color.White,
+//            secondaryContainer = Color(0xFFEBEDED),
+//            onSecondaryContainer = Color(0xFF193238)
         )
     }
     val typography = Typography(
         bodyMedium = TextStyle(
             fontFamily = FontFamily.Default,
             fontWeight = FontWeight.Normal,
-            fontSize = 16.sp
+            fontSize = 14.sp
         )
     )
     val shapes = Shapes(
         small = RoundedCornerShape(4.dp),
-        medium = RoundedCornerShape(4.dp),
-        large = RoundedCornerShape(0.dp)
+        medium = RoundedCornerShape(8.dp),
+        large = RoundedCornerShape(16.dp)
     )
 
     MaterialTheme(

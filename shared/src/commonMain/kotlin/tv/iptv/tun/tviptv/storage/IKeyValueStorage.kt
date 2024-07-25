@@ -5,11 +5,11 @@ import kotlinx.serialization.KSerializer
 import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
 import tv.iptv.tun.tviptv.models.SourceFrom
-import tv.iptv.tun.tviptv.utils.JsonUtil
 
 expect val playFormSettings: Settings
 
 interface IKeyValueStorage {
+    fun has(key: String): Boolean = false
     fun putString(key: String, value: String)
     fun getString(key: String, defValue: String?): String?
     fun putFloat(key: String, value: Float)
@@ -29,10 +29,27 @@ fun IKeyValueStorage.cacheCookie(vtcBackup: SourceFrom): Map<String, String>? {
     return getObject(vtcBackup.name, MapSerializer(String.serializer(), String.serializer()))
 }
 
-fun IKeyValueStorage.onboardingSuccess(): Boolean {
+
+fun IKeyValueStorage.isFirstOpenApp(): Boolean {
+    return !has(KVStorageConstants.KEY_FIRST_OPEN_APP)
+}
+
+fun IKeyValueStorage.isOnboardingSuccess(): Boolean {
     return getBoolean(KVStorageConstants.KEY_ONBOARDING_SUCCESS)
+}
+
+fun IKeyValueStorage.isPrivacyAccepted(): Boolean {
+    return getBoolean(KVStorageConstants.KEY_PRIVACY_ACCEPTED)
 }
 
 fun IKeyValueStorage.setOnBoardingSuccess(success: Boolean = true) {
     putBoolean(KVStorageConstants.KEY_ONBOARDING_SUCCESS, success)
+}
+
+fun IKeyValueStorage.setPrivacyAccepted(accepted: Boolean) {
+    putBoolean(KVStorageConstants.KEY_PRIVACY_ACCEPTED, accepted)
+}
+
+fun IKeyValueStorage.setFistOpened(opened: Boolean) {
+    putBoolean(KVStorageConstants.KEY_FIRST_OPEN_APP, opened)
 }
