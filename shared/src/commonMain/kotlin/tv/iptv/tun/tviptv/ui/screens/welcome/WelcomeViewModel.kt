@@ -29,7 +29,7 @@ class WelcomeViewModel(
     init {
         when {
             keyValueStorage.isFirstOpenApp() -> delayUIValueIfNeeded(UIWelcomeData.Begin)
-            !keyValueStorage.isOnboardingSuccess() -> delayUIValueIfNeeded(UIWelcomeData.Onboard)
+//            !keyValueStorage.isOnboardingSuccess() -> delayUIValueIfNeeded(UIWelcomeData.Onboard)
             !keyValueStorage.isPrivacyAccepted() -> delayUIValueIfNeeded(UIWelcomeData.Privacy)
             else -> delayUIValueIfNeeded(UIWelcomeData.Done)
         }
@@ -40,7 +40,6 @@ class WelcomeViewModel(
             _uiState.value = value
         } else {
             viewModelScope.launch(Dispatchers.Main) {
-                delay(2_000)
                 _uiState.value = value
             }
         }
