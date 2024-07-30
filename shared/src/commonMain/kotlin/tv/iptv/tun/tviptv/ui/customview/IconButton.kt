@@ -28,19 +28,22 @@ fun IconButtonPositive(
     shape: Shape = RoundedCornerShape(4.dp),
     onClick: () -> Unit,
     iconContentDescription: String? = null,
-    fontSize: TextUnit = 14.sp
+    fontSize: TextUnit = 14.sp,
+    containerColor: Color = MaterialTheme.colorScheme.primaryContainer,
+    contentColor: Color = MaterialTheme.colorScheme.onPrimaryContainer,
+    iconColor: Color = MaterialTheme.colorScheme.onPrimaryContainer,
 ) {
-    IconButton(
+    IconTextButton(
         modifier,
         title,
         icon,
         onClick,
         iconContentDescription ?: "${title}_Positive",
-        containerColor = MaterialTheme.colorScheme.primaryContainer,
-        contentColor = MaterialTheme.colorScheme.onPrimaryContainer,
-        iconColor = MaterialTheme.colorScheme.onPrimaryContainer,
+        containerColor = containerColor,
+        contentColor = contentColor,
+        iconColor = iconColor,
         shape = shape,
-        fontSize = fontSize
+        fontSize = fontSize,
     )
 }
 
@@ -54,7 +57,7 @@ fun IconButtonNegative(
     onClick: () -> Unit,
     fontSize: TextUnit = 14.sp
 ) {
-    IconButton(
+    IconTextButton(
         modifier,
         title,
         icon,
@@ -75,7 +78,10 @@ fun RoundedButton(
     icon: ImageVector? = null,
     iconContentDescription: String? = null,
     onClick: () -> Unit,
-    fontSize: TextUnit = 14.sp
+    fontSize: TextUnit = 14.sp,
+    containerColor: Color = MaterialTheme.colorScheme.primaryContainer,
+    contentColor: Color = MaterialTheme.colorScheme.onPrimaryContainer,
+    iconColor: Color  = MaterialTheme.colorScheme.onPrimaryContainer,
 ) {
     IconButtonPositive(
         modifier = modifier,
@@ -84,12 +90,15 @@ fun RoundedButton(
         iconContentDescription = iconContentDescription,
         onClick = onClick,
         shape = RoundedCornerShape(50),
-        fontSize = fontSize
+        fontSize = fontSize,
+        containerColor = containerColor,
+        contentColor = contentColor,
+        iconColor = iconColor
     )
 }
 
 @Composable
-fun IconButton(
+fun IconTextButton(
     modifier: Modifier = Modifier,
     title: String,
     icon: ImageVector? = null,
