@@ -111,7 +111,7 @@ class ParserIPTVProgramSchedule constructor(
     }
 
     fun getListProgramForExtensionsChannel(
-        channel: ExtensionsChannel
+        channel: IPTVChannel
     ): Flow<List<TVScheduler.Programme>> {
         return flowOf(getListProgramForChannel(channel.channelId, true))
     }
@@ -164,7 +164,7 @@ class ParserIPTVProgramSchedule constructor(
     }
 
     fun getCurrentProgramForExtensionChannel(
-        channel: ExtensionsChannel,
+        channel: IPTVChannel,
         configType: IPTVSourceConfig.Type
     ): Flow<TVScheduler.Programme> {
         return getCurrentProgramForChannel(

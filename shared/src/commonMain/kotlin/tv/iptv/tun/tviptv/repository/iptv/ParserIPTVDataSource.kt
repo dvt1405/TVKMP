@@ -1,10 +1,11 @@
 package tv.iptv.tun.tviptv.repository.iptv
 
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.onCompletion
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.retry
-import kotlinx.coroutines.flow.toCollection
+import kotlinx.coroutines.flow.toList
 import kotlinx.coroutines.flow.transform
 import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
@@ -14,6 +15,8 @@ import tv.iptv.tun.tviptv.network.HttpClientManager
 import tv.iptv.tun.tviptv.repository.firebase.RemoteConfigWrapper
 import tv.iptv.tun.tviptv.storage.IKeyValueStorage
 import tv.iptv.tun.tviptv.storage.KeyValueStorage
+import tv.iptv.tun.tviptv.storage.getCurrentIPTVSource
+import tv.iptv.tun.tviptv.storage.saveCurrentIPTVSource
 import tv.iptv.tun.tviptv.utils.JsonUtil
 import tv.iptv.tun.tviptv.utils.Logger
 import tv.iptv.tun.tviptv.utils.d
@@ -25,6 +28,62 @@ open class ParserIPTVDataSource(
     private val programScheduleParser: ParserIPTVProgramSchedule = ParserIPTVProgramSchedule(),
     private val remoteConfig: RemoteConfigWrapper = RemoteConfigWrapper
 ) {
+
+    fun currentIPTVSource(): IPTVSourceConfig? {
+        var currentIPTV = storage.getCurrentIPTVSource()
+        if (currentIPTV == null) {
+            val cache = roomDataBase.getAllIPTVSource()
+                .executeAsList()
+                .firstOrNull()
+            if (cache != null) {
+                currentIPTV = cache.let {
+                    IPTVSourceConfig(
+                        sourceUrl = it.sourceUrl,
+                        sourceName = it.sourceName ?: "",
+                        type = it.type?.let {
+                            kotlin.runCatching {
+                                IPTVSourceConfig.Type.valueOf(it)
+                            }.getOrNull()
+                        } ?: IPTVSourceConfig.Type.TV_CHANNEL
+                    )
+                }
+                storage.saveCurrentIPTVSource(currentIPTV)
+                return currentIPTV
+            }
+        }
+        return currentIPTV
+    }
+
+    suspend fun getIPTVSource(iptvConfig: IPTVSourceConfig): Flow<List<IPTVChannel>> = flow {
+        val mapSerializer = MapSerializer(String.serializer(), String.serializer())
+        val listIPTVChannel = roomDataBase.queryIPTVChannelByIPTVSource(iptvConfig.sourceUrl)
+            .executeAsList()
+            .map {
+                IPTVChannel(
+                    tvGroup = it.tvGroup ?: "",
+                    channelId = it.channelId ?: "",
+                    catchupSource = it.catchupSource ?: "",
+                    sourceFrom = it.sourceFrom ?: "",
+                    extensionSourceId = it.extensionSourceId ?: "",
+                    tvChannelName = it.tvChannelName ?: "",
+                    logoChannel = it.logoChannel ?: "",
+                    tvStreamLink = it.tvStreamLink ?: "",
+                    userAgent = it.userAgent ?: "",
+                    isHls = it.isHls?.toBoolean() ?: false,
+                    props = it.props?.let {
+                        JsonUtil.fromJson(it, mapSerializer)
+                    },
+                    referer = it.referer ?: "",
+                    channelPreviewProviderId = it.channelPreviewProviderId?.toLong() ?: -1
+                )
+            }
+            .takeIf {
+                it.isNotEmpty()
+            }
+
+            ?: parseSource(iptvConfig).toList(mutableListOf())
+        emit(listIPTVChannel)
+    }
 
     private fun getIntervalRefreshData(configType: IPTVSourceConfig.Type): Int {
         val key = EXTRA_INTERVAL_REFRESH_DATA_KEY + configType.name
@@ -42,9 +101,9 @@ open class ParserIPTVDataSource(
         }
     }
 
-    suspend fun parseSource(iptvConfig: IPTVSourceConfig): Flow<ExtensionsChannel> {
+    suspend fun parseSource(iptvConfig: IPTVSourceConfig): Flow<IPTVChannel> {
         val sourceFrom = iptvConfig.sourceName
-        var extensionsChannel: ExtensionsChannel?
+        var iptvChannel: IPTVChannel?
         var channelId = ""
         var channelLogo = ""
         var channelGroup = ""
@@ -63,7 +122,7 @@ open class ParserIPTVDataSource(
                     return@transform
                 }
                 if (line.startsWith(TAG_EXT_INFO) || line.startsWith("EXTINF:")) {
-                    extensionsChannel = ExtensionsChannel(
+                    iptvChannel = IPTVChannel(
                         tvGroup = channelGroup,
                         logoChannel = channelLogo,
                         tvChannelName = channelName.trim(),
@@ -79,8 +138,8 @@ open class ParserIPTVDataSource(
                         referer = referer
                     )
 
-                    if (extensionsChannel!!.isValidChannel) {
-                        emit(extensionsChannel!!)
+                    if (iptvChannel!!.isValidChannel) {
+                        emit(iptvChannel!!)
                     }
                     channelId = ""
                     channelLogo = ""

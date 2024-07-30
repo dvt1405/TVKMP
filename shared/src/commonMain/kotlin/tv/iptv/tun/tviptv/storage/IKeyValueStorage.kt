@@ -5,6 +5,7 @@ import kotlinx.serialization.KSerializer
 import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
 import tv.iptv.tun.tviptv.models.SourceFrom
+import tv.iptv.tun.tviptv.repository.iptv.IPTVSourceConfig
 
 expect val playFormSettings: Settings
 
@@ -52,4 +53,18 @@ fun IKeyValueStorage.setPrivacyAccepted(accepted: Boolean) {
 
 fun IKeyValueStorage.setFistOpened(opened: Boolean) {
     putBoolean(KVStorageConstants.KEY_FIRST_OPEN_APP, opened)
+}
+
+fun IKeyValueStorage.getCurrentIPTVSource(): IPTVSourceConfig? {
+    return getObject(KVStorageConstants.KEY_CURRENT_IPTV_SOURCE, IPTVSourceConfig.serializer())
+}
+
+fun IKeyValueStorage.saveCurrentIPTVSource(
+    iptvSourceConfig: IPTVSourceConfig
+) {
+    putObject(
+        KVStorageConstants.KEY_CURRENT_IPTV_SOURCE,
+        iptvSourceConfig,
+        IPTVSourceConfig.serializer()
+    )
 }

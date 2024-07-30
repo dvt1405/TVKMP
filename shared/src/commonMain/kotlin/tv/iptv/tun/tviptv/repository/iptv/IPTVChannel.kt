@@ -4,7 +4,7 @@ import tv.iptv.tun.tviptv.PlayerConstants
 import tv.iptv.tun.tviptv.repository.iptv.model.TVScheduler
 import tv.iptv.tun.tviptv.utils.toUrlOrNull
 
-data class ExtensionsChannel(
+data class IPTVChannel(
     var tvGroup: String,
     val logoChannel: String,
     val tvChannelName: String,
@@ -62,10 +62,4 @@ data class ExtensionsChannel(
                 "currentProgramme: $currentProgramme" +
                 "}"
     }
-}
-
-class ExtensionsChannelAndConfig(
-    val channel: ExtensionsChannel,
-    val config: IPTVSourceConfig
-) {
 }

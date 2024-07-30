@@ -6,6 +6,7 @@ enum class NavDestinations() {
     Privacy,
     HomeScreen,
     AddIPTVScreen,
+    AddIPTVScreenBottomSheet,
     IPTVScreen,
     PlayerScreen,
     UserScreen,

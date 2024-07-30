@@ -1,5 +1,8 @@
 package tv.iptv.tun.tviptv.repository.iptv
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 open class IPTVSourceConfig constructor(
     var sourceName: String,
     val sourceUrl: String,

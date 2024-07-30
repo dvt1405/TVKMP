@@ -28,10 +28,11 @@ class WelcomeViewModel(
 
     init {
         when {
-            keyValueStorage.isFirstOpenApp() -> delayUIValueIfNeeded(UIWelcomeData.Begin)
+            keyValueStorage.isPrivacyAccepted() -> delayUIValueIfNeeded(UIWelcomeData.Done)
+            keyValueStorage.isOnboardingSuccess() -> delayUIValueIfNeeded(UIWelcomeData.Privacy)
 //            !keyValueStorage.isOnboardingSuccess() -> delayUIValueIfNeeded(UIWelcomeData.Onboard)
-            !keyValueStorage.isPrivacyAccepted() -> delayUIValueIfNeeded(UIWelcomeData.Privacy)
-            else -> delayUIValueIfNeeded(UIWelcomeData.Done)
+            keyValueStorage.isFirstOpenApp() -> delayUIValueIfNeeded(UIWelcomeData.Begin)
+            else -> delayUIValueIfNeeded(UIWelcomeData.Onboard)
         }
     }
 

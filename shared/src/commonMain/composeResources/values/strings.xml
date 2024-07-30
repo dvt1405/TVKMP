@@ -2,8 +2,17 @@
     <string name="welcome_screen_btn_title">Let's go!</string>
     <string name="app_name">Live TV &amp; IPTV</string>
     <!--    IPTV HOME-->
+    <string name="iptv_screen_main_title">IPTV</string>
     <string name="what_is_iptv_title">What is IPTV?</string>
     <string name="about_iptv_title">About IPTV</string>
     <string name="what_is_iptv_description">Internet Protocol Television (IPTV) is a system where television services are delivered using the Internet protocol suite over a packet-switched network such as a LAN or the Internet, instead of being delivered through traditional terrestrial, satellite signal, and cable television formats. IPTV offers a wide range of channels and on-demand content, providing users with a flexible and interactive viewing experience.</string>
     <string name="about_iptv_description">IPTV services can be classified into three main categories: live television, time-shifted media, and video on demand. Live television allows users to watch live broadcasts, while time-shifted media lets them watch previously aired shows. Video on demand provides users with a catalog of videos from which to choose. IPTV is known for its high-quality streaming and the ability to integrate with other IP-based services like VoIP and high-speed Internet.</string>
+    <string name="empty_iptv_source_description">Empty IPTV source</string>
+    <string name="discover_iptv_title">Discover IPTV</string>
+    <string name="discover_iptv_description">Unlimited Entertainment</string>
+    <string name="add_iptv_btn_title">Add IPTV</string>
+    <string name="popular_iptv_title">Popular IPTV source</string>
+
+
+
 </resources>

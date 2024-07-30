@@ -1,5 +1,6 @@
-package tv.iptv.tun.tviptv.ui.screens.iptv
+package tv.iptv.tun.tviptv.ui.screens.iptv.addiptv
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -25,6 +26,8 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SheetState
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
@@ -34,6 +37,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
@@ -47,15 +51,20 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PlatformImeOptions
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import io.ktor.http.Url
+import kotlinx.coroutines.launch
+import tv.iptv.tun.tviptv.repository.iptv.IPTVSourceConfig
 import tv.iptv.tun.tviptv.ui.customview.IconButtonNegative
 import tv.iptv.tun.tviptv.ui.customview.IconButtonPositive
+import tv.iptv.tun.tviptv.ui.screens.iptv.IPTVViewModel
 
 @Composable
 fun AddIPTVScreen(
-    nav: NavHostController = rememberNavController()
+    nav: NavHostController = rememberNavController(),
+    iptvViewModel: IPTVViewModel = viewModel { IPTVViewModel() }
 ) {
     val textFieldValue = mutableStateOf("")
     val textFieldValue2 = mutableStateOf("")
@@ -103,13 +112,56 @@ fun AddIPTVScreen(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AddIPTVBottomSheet() {
-    val sheetState = rememberModalBottomSheetState()
-    ModalBottomSheet(
-        onDismissRequest = {},
-        sheetState = sheetState
+fun AddIPTVBottomSheet(
+    nav: NavHostController = rememberNavController(),
+    addIPTVViewModel: IPTVViewModel = viewModel { IPTVViewModel() },
+    onCancel: () -> Unit = {},
+    sheetState: SheetState = rememberModalBottomSheetState(),
+    sourceConfig: IPTVSourceConfig? = null
+) {
+    AddIPTVBottomSheet(
+        nav,
+        addIPTVViewModel,
+        onCancel,
+        sheetState,
+        sourceConfig?.sourceName,
+        sourceConfig?.sourceUrl
+    )
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun AddIPTVBottomSheet(
+    nav: NavHostController = rememberNavController(),
+    addIPTVViewModel: IPTVViewModel = viewModel { IPTVViewModel() },
+    onCancel: () -> Unit = {},
+    sheetState: SheetState = rememberModalBottomSheetState(),
+    defName: String? = null,
+    defUrl: String? = null
+) {
+    val scope = rememberCoroutineScope()
+    Surface(
+        modifier = Modifier
     ) {
-        AddIPTVContent()
+        ModalBottomSheet(
+            onDismissRequest = {
+                onCancel()
+            },
+            sheetState = sheetState,
+        ) {
+            AddIPTVContent(
+                onAddIPTChannel = { url, name ->
+                    addIPTVViewModel.addIPTVSource(url, name)
+                },
+                onCancel = {
+                    scope.launch {
+                        sheetState.hide()
+                    }
+                },
+                channelNameValue = mutableStateOf(defName ?: ""),
+                channelUrlValue = mutableStateOf(defUrl ?: "")
+            )
+        }
     }
 }
 
@@ -137,8 +189,8 @@ internal fun AddIPTVContent(
             onImeAction = {
                 keyboardController?.hide()
                 onAddIPTChannel(
-                    channelNameValue.value,
-                    channelUrlValue.value
+                    channelUrlValue.value,
+                    channelNameValue.value
                 )
             },
             onValueChange = { value ->
@@ -183,8 +235,8 @@ internal fun AddIPTVContent(
                 icon = Icons.Rounded.Add,
                 onClick = {
                     onAddIPTChannel(
+                        channelUrlValue.value,
                         channelNameValue.value,
-                        channelUrlValue.value
                     )
                 },
                 modifier = Modifier.weight(1f)

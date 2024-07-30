@@ -22,7 +22,8 @@ CREATE TABLE IPTVChannelDTO (
     userAgent TEXT,
     referer TEXT,
     props TEXT,
-    extensionSourceId TEXT
+    extensionSourceId TEXT,
+    PRIMARY KEY (channelId, tvChannelName, extensionSourceId)
 );
 
 CREATE TABLE Programme(
@@ -33,7 +34,14 @@ CREATE TABLE Programme(
     title TEXT,
     description TEXT,
     extensionsConfigId TEXT,
-    extensionEpgUrl TEXT
+    extensionEpgUrl TEXT,
+    PRIMARY KEY (channel, title, start, stop)
+);
+
+CREATE TABLE IPTVSourceConfig(
+    sourceUrl TEXT PRIMARY KEY,
+    sourceName TEXT,
+    type TEXT
 );
 
 insertChannel:
@@ -81,6 +89,9 @@ DELETE FROM IPTVChannelDTO;
 queryIPTVByID:
 SELECT * FROM IPTVChannelDTO WHERE channelId = ?;
 
+queryIPTVChannelByIPTVSource:
+SELECT * FROM IPTVChannelDTO WHERE extensionSourceId = ?;
+
 selectAllProgramme:
 SELECT * FROM Programme;
 
@@ -116,3 +127,14 @@ INSERT OR REPLACE INTO Programme(
 title,description,extensionsConfigId,extensionEpgUrl,
 channel,channelNumber,start,stop
 ) VALUES ?;
+
+insertIPTVSourceConfig:
+INSERT OR REPLACE INTO IPTVSourceConfig(sourceUrl, sourceName, type) VALUES (
+?, ?, ?
+);
+
+insertIPTVSourceConfigObj:
+INSERT OR REPLACE INTO IPTVSourceConfig(sourceUrl, sourceName, type) VALUES ?;
+
+getAllIPTVSource:
+SELECT * FROM IPTVSourceConfig;
