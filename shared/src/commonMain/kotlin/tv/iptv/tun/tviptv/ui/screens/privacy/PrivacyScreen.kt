@@ -9,8 +9,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import com.multiplatform.webview.web.WebView
+import com.multiplatform.webview.web.rememberWebViewState
 import tv.iptv.tun.tviptv.ui.customview.RoundedButton
-import tv.iptv.tun.tviptv.ui.customview.WebViewCompose
 import tv.iptv.tun.tviptv.ui.screens.welcome.WelcomeViewModel
 
 expect fun getHtmlPrivacyUrl(): String
@@ -34,10 +35,9 @@ fun PrivacyScreen(
             }
         }
     ) {
-        WebViewCompose(
+        WebView(
+            rememberWebViewState(getHtmlPrivacyUrl()),
             modifier = Modifier.fillMaxSize()
-                .padding(bottom = it.calculateBottomPadding()),
-            url = getHtmlPrivacyUrl()
         )
     }
 }

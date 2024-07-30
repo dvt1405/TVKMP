@@ -45,7 +45,6 @@ kotlin {
             implementation(compose.material3)
             implementation(compose.materialIconsExtended)
             implementation(compose.ui)
-            implementation(compose.preview)
             implementation(compose.components.resources)
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.kotlinx.serialization.json)
@@ -63,7 +62,7 @@ kotlin {
             implementation(libs.navigation.compose)
             implementation("io.coil-kt.coil3:coil-compose:3.0.0-alpha06")
             implementation("io.coil-kt.coil3:coil-network-ktor:3.0.0-alpha06")
-
+            implementation("io.github.kevinnzou:compose-webview-multiplatform:1.9.20")
         }
         commonTest.dependencies {
             implementation(kotlin("test-common"))
